@@ -3,30 +3,33 @@
 }
 
 header {
-    border: 1px solid red;
+    background-color: turquoise;
 }
 nav {
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
+    
 }
 nav ul {
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
 }
 nav li {
+    width: 100%;
+    margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
+    text-align: center;
 }
 nav li a {
     display: block;
     text-decoration: none;
-    color: #797e83;
+    font-family: 'inter', 'sans-serif';
+    color: black;
     font-size: 1.125em;
     font-weight: 300;
-    text-align: center;
     padding: .4em;
-    border-bottom: 1px solid #ebecec;
 }
 nav a:hover {
     color: #0b0b0b;
@@ -35,23 +38,20 @@ nav a:hover {
 
 
 @media screen and (min-width: 768px) {
-    nav {
+    nav ul {
         flex-direction: row;
-        justify-content: space-between;
     }
     nav a {
-        border-bottom-color: transparent;
+        border-bottom-color: ;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
     nav {
-        margin-top: 0;
-        align-self: center;
+        
     }
     nav li {
-        margin-left: .65em;
-        margin-right: .65em;
+        
     }
 }
