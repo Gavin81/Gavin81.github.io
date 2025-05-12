@@ -32,30 +32,33 @@ nav a:hover {
     font-family: 'inter', sans-serif;
     font-weight: 300;
     padding: 6px 0 6px 0;
+    margin: 0;
 }
 .paragraph {
     font-size: 14px;
     font-family: 'inter', sans-serif;
     font-weight: 300;
+    margin: 0;
 }
 .about-me {
-    border: 1px solid red;
-    margin: 0;
     display: grid;
+    margin-bottom: 20px;
 }
 .about-me h3 {
-    border: 1px solid blue;
     text-align: center;
     font-family: 'inter', sans-serif;
     font-weight: 300;
-    margin: 0;
 }
 .about-me p {
     font-size: 14px;
     font-family: 'inter', sans-serif;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
+}
+.my-experience {
+    display: grid;
+}
+.my-experience h3 {
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -63,7 +66,10 @@ nav a:hover {
     nav ul {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+    }
+    nav li {
+        padding: 15px 0 15px 0;
     }
     
 }
