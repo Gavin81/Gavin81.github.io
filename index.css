@@ -3,10 +3,7 @@
 }
 
 header {
-    background-color: turquoise;
-}
-nav {
-    
+    background-color: black;
 }
 nav ul {
     display: flex;
@@ -15,36 +12,60 @@ nav ul {
     padding: 0;
 }
 nav li {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
     text-align: center;
+    list-style: none;
+    padding: 7px 0 7px 0;
 }
 nav li a {
-    display: block;
     text-decoration: none;
     font-family: 'inter', 'sans-serif';
-    color: black;
-    font-size: 1.125em;
-    font-weight: 300;
-    padding: .4em;
+    color: white;
+    font-size: 1.0em;
+    padding: 7px 0 7px 0;
 }
 nav a:hover {
-    color: #0b0b0b;
+    color: turquoise;
 }
 
+.heading {
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    padding: 6px 0 6px 0;
+}
+.paragraph {
+    font-size: 14px;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+}
+.about-me {
+    border: 1px solid red;
+    margin: 0;
+    display: grid;
+}
+.about-me h3 {
+    border: 1px solid blue;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.about-me p {
+    font-size: 14px;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
 
 @media only screen and (min-width: 768px) {
     
     nav ul {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-between; */
+        justify-content: center;
     }
-    nav a {
-        
-    }
+    
 }
 
 
