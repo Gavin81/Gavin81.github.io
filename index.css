@@ -58,6 +58,7 @@ nav a:hover {
     padding-top: 10px;
 }
 .my-experience {
+    /* border: 1px solid blue; */
     display: grid;
     margin: 0;
 }
@@ -65,10 +66,56 @@ nav a:hover {
     
 }
 .my-experience p {
-
+    padding-bottom: 10px;
 }
 .my-experience p a {
     color: teal;
+}
+.vb {
+    border: 1px solid turquoise;
+    border-radius: 6px;
+}
+.vb img {
+    /* border: 1px solid red; */
+    border-radius: 6px 0 0 6px;
+    float: left;
+    width: 50px;
+    height: 60px;
+}
+.vb p {
+    /* border: 1px solid green; */
+    font-family: 'inter', sans-serif;
+    margin: 20px 0 0 50px;
+    padding: 0 0 0 20px;
+}
+.the-future {
+    /* border: 1px solid red; */
+}
+
+footer {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 20px 0 10px 0;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+footer li {
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    color: turquoise;
+}
+footer img {
+    width: 50px;
+    height: 25px;
 }
 
 @media only screen and (min-width: 768px) {
