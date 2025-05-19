@@ -7,6 +7,7 @@ body {
 }
 
 header {
+    border-radius: 6px;
     background-color: black;
     margin: 0;
 }
