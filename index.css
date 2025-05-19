@@ -137,7 +137,7 @@ nav a:hover {
 }
 .th p {
     font-family: 'inter', sans-serif;
-    margin: 20px 0 0 50px;
+    margin: 13px 0 0 50px;
     padding: 0 0 0 20px;
 }
 
@@ -190,6 +190,12 @@ footer img {
     }
     nav li {
         padding: 15px 0 15px 0;
+    }
+
+
+    .about-me {
+        margin: 0 auto;
+        width: 98%;
     }
     
 }
