@@ -33,18 +33,19 @@ nav a:hover {
     color: turquoise;
 }
 
+
 .heading {
     text-align: center;
     font-family: 'inter', sans-serif;
     font-weight: 300;
-    padding: 20px 0 20px 0;
+    padding: 15px 0 15px 0;
     margin: 0;
 }
 .paragraph {
     font-family: 'inter', sans-serif;
     font-weight: 300;
     margin: 0;
-    padding-left: 5px;
+    padding-left: 4px;
     padding-bottom: 7px;
 }
 
@@ -53,24 +54,25 @@ nav a:hover {
     border-radius: 6px;
     display: grid;
     margin-top: 0;
+    padding-bottom: 5px;
     background-color: white;
-}
-.about-me h3 {
-    text-align: center;
-    font-family: 'inter', sans-serif;
-    font-weight: 300;
 }
 .about-me img {
     border-radius: 5px 5px 0 0;
     width: 100%;
     height: 200px;
 }
-.about-me p {
-    /* font-size: 13px; */
-    font-size: 1rem;
+.about-me h3 {
+    text-align: center;
     font-family: 'inter', sans-serif;
     font-weight: 300;
-    padding-top: 10px;
+}
+.about-me p {
+    /* font-size: 13px; */
+    font-size: 0.8rem;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    padding-top: 0;
 }
 
 /* MY EXPERIENCE */
@@ -80,9 +82,12 @@ nav a:hover {
     display: grid;
     margin: 14px 0 0 0;
 }
+.my-experience h3 {
+    
+}
 .my-experience p {
     /* font-size: 13px; */
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-bottom: 0 0 10px 0;
 }
 .my-experience p a {
@@ -92,66 +97,65 @@ nav a:hover {
 .item {
     margin-bottom: 12px;
 }
-.vb {
-    border: 1px solid turquoise;
+
+/* visual basic section */
+.visual-basic {
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 0;
+}
+.visual-basic img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 240px;
+}
+
+
+/* the open university section */
+.open-university {
     border-radius: 6px;
 }
-.vb img {
-    /* border: 1px solid red; */
-    border-radius: 6px 0 0 6px;
-    float: left;
-    width: 50px;
-    height: 60px;
+.open-university img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 240px;
 }
-.vb p {
-    /* border: 1px solid green; */
-    font-family: 'inter', sans-serif;
-    margin: 20px 0 0 50px;
-    padding: 0 0 0 20px;
-}
-.ou {
-    border: 1px solid turquoise;
+
+
+/* the treehouse section */
+.treehouse {
     border-radius: 6px;
+    background-color: white;
 }
-.ou img {
-    border-radius: 6px 0 0 6px;
-    float: left;
-    width: 50px;
-    height: 60px;
+.treehouse img {
+    margin: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 240px;
 }
-.ou p {
+.treehouse h3 {
     font-family: 'inter', sans-serif;
-    margin: 20px 0 0 50px;
-    padding: 0 0 0 20px;
-}
-.th {
-    border: 1px solid turquoise;
-    border-radius: 6px;
-    padding: 4px 0 4px 4px;
-}
-.th img {
-    border-radius: 6px 0 0 6px;
-    float: left;
-    width: 50px;
-    height: 50px;
-}
-.th p {
-    font-family: 'inter', sans-serif;
-    margin: 13px 0 0 50px;
-    padding: 0 0 0 20px;
+    color: green;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 /* THE FUTURE */
 .the-future {
-    /* border: 1px solid red; */
     background-color: white;
     border-radius: 6px;
     margin: 14px 0 12px 0;
     padding: 0 0 6px 0;
 }
+.the-future h3 {
+    
+}
 .the-future p {
-    /* font-size: 13px; */
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 
