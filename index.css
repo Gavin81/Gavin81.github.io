@@ -144,6 +144,27 @@ nav a:hover {
     text-align: center;
 }
 
+
+/* My units section */
+.my-treehouse-projects h2 {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 0 3px 0;
+    text-align: center;
+}
+.online-reg-form {
+    border-radius: 6px;
+}
+.online-reg-form img {
+    border-radius: 6px;
+    height: 370px;
+    width: 100%;
+}
+.online-reg-form:hover {
+    border: 1px solid turquoise;
+}
+
 /* THE FUTURE */
 .the-future {
     background-color: white;
