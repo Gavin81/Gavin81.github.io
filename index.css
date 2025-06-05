@@ -8,9 +8,10 @@ body {
 
 header {
     border-radius: 6px;
-    background-color: black;
+    background-color: turquoise;
     margin: 0;
 }
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -25,12 +26,12 @@ nav li {
 nav li a {
     text-decoration: none;
     font-family: 'inter', 'sans-serif';
-    color: white;
+    color: black;
     font-size: 1.0em;
     padding: 7px 0 7px 0;
 }
 nav a:hover {
-    color: turquoise;
+    color: white;
 }
 
 
@@ -162,8 +163,11 @@ nav a:hover {
     width: 100%;
 }
 .online-reg-form:hover {
-    border: 1px solid turquoise;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 1px lightgrey;
+    transition: transform 1s ease;;
 }
+
 
 /* THE FUTURE */
 .the-future {
