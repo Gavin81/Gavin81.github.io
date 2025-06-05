@@ -100,10 +100,9 @@ nav a:hover {
 
 /* THIS IS THE AREA OF EDUCATION */
 .places-subs-ed {
-    border: 1px solid blue;
+    
 }
 .item {
-    border: 1px solid red;
     border-radius: 6px;
     margin: 0 5px 12px 5px;
 }
@@ -127,6 +126,7 @@ nav a:hover {
     margin-right: 5px; */
 }
 .open-university img {
+    border-radius: 6px;
     display: block;
     margin: 0 auto;
     width: 100%;
