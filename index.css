@@ -13,7 +13,7 @@ header {
 }
 
 /* THE BURGER MENU */
-.off-screen-menu {
+/* .off-screen-menu {
     background-color: rgb(34, 37, 49);
     height: 100vh;
     width: 100%;
@@ -29,10 +29,14 @@ header {
     font-size: 3rem;
     transition: .3s ease;
 }
+.off-screen-menu ul {
+    padding: 0;
+}
 .off-screen-menu li {
     list-style: none;
 }
 .off-screen-menu li a {
+    font-family: 'inter', sans-serif;
     font-size: 25px;
     color: white;
     text-decoration: none;
@@ -43,7 +47,6 @@ header {
     right: 0;
 }
 .nav {
-    border: 1px solid red;
     margin-bottom: 10px;
     padding: 1rem;
     display: flex;
@@ -81,14 +84,11 @@ header {
 }
 .ham-menu.active span:nth-child(3){
     top: 50%;
-    transform: translate(-50%, 50%) rotate(-45deg);
-}
+    transform: translate(-50%, -50%) rotate(-45deg);
+} */
 /* END OF THE BURGER MENU */
 
 
-nav {
-    display: none;
-}
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -137,12 +137,11 @@ nav a:hover {
     background-color: white;
 }
 .about-me img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 6px 6px 0 0;
     width: 100%;
     height: 200px;
 }
 .about-me h3 {
-    border: 1px solid red;
     text-align: center;
     font-size: 23px;
     font-family: 'inter', sans-serif;
@@ -151,9 +150,28 @@ nav a:hover {
 .about-me p {
     /* font-size: 13px; */
     font-size: 0.8rem;
-    font-family: 'inter', sans-serif;
+    /* font-family: 'inter', sans-serif; */
+    font-family: 'SourceSansProRegular', Helvetica, sans-serif;
+    color: #1a1a1a;
     font-weight: 300;
     padding-top: 0;
+}
+#zoomBOut {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+#zoomBIn {
+    width: 100%;
+    height: 100%;
+    background-image: url(SUNRAYS.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform ease 0.3s;
+}
+#zoomBIn:hover {
+    transform: scale(1.2);
 }
 
 /* MY EXPERIENCE */
@@ -164,7 +182,7 @@ nav a:hover {
     margin: 14px 5px 5px 5px;
 }
 .my-experience h3 {
-    
+    font-size: 23px;
 }
 .my-experience p {
     /* font-size: 13px; */
