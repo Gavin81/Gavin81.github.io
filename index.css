@@ -301,6 +301,7 @@ nav a:hover {
     text-align: center;
     padding: 10px 0 10px 0;
     margin: 0;
+    color: black;
 }
 .online-reg-form:hover {
     cursor: pointer;
