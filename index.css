@@ -437,8 +437,8 @@ footer img {
         padding: 15px 0 15px 0;
     }
 
-
     .about-me {
+        border: 1px solid red;
         margin: 0 auto;
         width: 98%;
     }
