@@ -437,10 +437,21 @@ footer img {
         padding: 15px 0 15px 0;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .about-me {
-        border: 1px solid red;
-        margin: 0 auto;
-        width: 98%;
+        /* border: 1px solid red; */
+    }
+    .about-me img {
+        border: 1px solid blue;
+    }
+    .about-me h3 {
+        border: 1px solid green;
+    }
+    .about-me p {
+        border: 1px solid black;
     }
     
 }
