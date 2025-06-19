@@ -118,7 +118,7 @@ nav a:hover {
     border-radius: 6px;
     display: grid;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding-bottom: 5px;
     background-color: white;
     width: 95%;
@@ -166,12 +166,10 @@ nav a:hover {
 
 /* MY EXPERIENCE */
 .my-experience {
-    border: 1px solid red;
     border-radius: 6px;
     background-color: white;
-    display: grid;
-    /* margin: 0 auto; */
-    /* margin: 14px 5px 5px 5px; */
+    margin: 0 auto;
+    margin-bottom: 15px;
     width: 95%;
 }
 .my-experience img {
@@ -204,9 +202,10 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     width: 95%;
-    margin-top: 15px;
 }
-
+.education .item {
+    /* border: 1px solid blue; */
+}
 
 /* visual basic section */
 .visual-basic {
@@ -224,15 +223,16 @@ nav a:hover {
 
 /* the open university section */
 .open-university {
+    border-radius: 6px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .open-university img {
     border-radius: 6px;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 240px;
+    /* display: block;
+    margin: 0 auto; */
+    /* width: 100%;
+    height: 240px; */
 }
 
 /* the treehouse section */
@@ -387,11 +387,19 @@ nav a:hover {
     height: 240px;
 }
 .the-future h3 {
+    font-family: 'inter', sans-serif;
     font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0;
 }
 .the-future p {
     font-size: 0.8rem;
-    font-family: 'SourceSansProRegular', Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 10px 4px;
 }
 
 
@@ -421,6 +429,7 @@ footer img {
     height: 25px;
 }
 
+/* TABLET MEDIA QUERIES *********************************************************************/
 @media only screen and (min-width: 768px) {
     
     nav ul {
@@ -438,6 +447,7 @@ footer img {
     }
     .about-me {
         border: 1px solid red;
+        place-content: start;
     }
     .about-me img {
         border: 1px solid blue;
@@ -446,7 +456,7 @@ footer img {
     .about-me h3 {
         border: 1px solid green;
         margin: 0;
-        padding: 0;
+        padding-block: 1rem;
     }
     .about-me p {
         border: 1px solid black;
