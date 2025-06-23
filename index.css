@@ -446,24 +446,31 @@ footer img {
         grid-template-columns: 1fr 1fr;
     }
     .about-me {
-        border: 1px solid red;
         place-content: start;
     }
     .about-me img {
-        border: 1px solid blue;
         margin: 0;
     }
     .about-me h3 {
-        border: 1px solid green;
         margin: 0;
         padding-block: 1rem;
     }
     .about-me p {
-        border: 1px solid black;
         margin: 0;
-        padding: 0;
+        padding: 0 0 0 5px;
     }
-    
+
+    .education {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .education .item {
+        border: 1px solid blue;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 
