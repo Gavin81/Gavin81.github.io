@@ -204,7 +204,7 @@ nav a:hover {
     width: 95%;
 }
 .education .item {
-    /* border: 1px solid blue; */
+    
 }
 
 /* visual basic section */
@@ -263,6 +263,13 @@ nav a:hover {
 
 
 /* My units section */
+.projects-headline {
+    font-family: 'inter', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
 .my-treehouse-projects {
     border-radius: 6px;
     background-color: #f8f8f8;
@@ -273,13 +280,6 @@ nav a:hover {
 .my-treehouse-projects .item {
     background-color: white;
     margin: 0 0 15px 0;
-}
-.projects-headline {
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 15px 0 3px 6px;
-    text-align: center;
 }
 .online-reg-form {
     border-radius: 6px;
@@ -353,11 +353,31 @@ nav a:hover {
     padding: 10px 0 10px 0;
     margin: 0;
 }
+
+
+/* my own independent work or website */
+.independent {
+    background-color: white;
+    display: block;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+}
+.independent h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 10px 0;
+    color: black;
+}
 .intheory {
     border-radius: 6px;
 }
 .intheory img {
-    border-radius: 6px 6px 0 0;
+    border-radius: 6px;
     height: 220px;
     width: 100%;
 }
@@ -429,6 +449,7 @@ footer img {
     height: 25px;
 }
 
+
 /* TABLET MEDIA QUERIES *********************************************************************/
 @media only screen and (min-width: 768px) {
     
@@ -461,15 +482,64 @@ footer img {
     }
 
     .education {
-        border: 1px solid red;
+        width: 97%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
     .education .item {
-        border: 1px solid blue;
         width: 300px;
         height: 300px;
+    }
+    .open-university {
+        margin: 0 0 0 0;
+    }
+
+
+    .my-treehouse-projects {
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        width: 97%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .my-treehouse-projects section {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .my-treehouse-projects .projects-headline {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .my-treehouse-projects .projects {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 440px 50px;
+        gap: 10px;
+    }
+    .my-treehouse-projects .item {
+        
+    }
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .item-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .item-4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
     }
 }
 
