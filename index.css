@@ -541,6 +541,13 @@ footer img {
         grid-column-start: 4;
         grid-column-end: 5;
     }
+
+
+    .independent .title {
+        /* border: 1px solid red; */
+        font-size: 23px;
+        padding: 17px 0;
+    }
 }
 
 
