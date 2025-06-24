@@ -203,9 +203,6 @@ nav a:hover {
     margin: 0 auto;
     width: 95%;
 }
-.education .item {
-    
-}
 
 /* visual basic section */
 .visual-basic {
@@ -281,6 +278,11 @@ nav a:hover {
     background-color: white;
     margin: 0 0 15px 0;
 }
+.my-treehouse-projects .item:hover {
+    border: 1px solid turquoise;
+}
+
+/* the online reg form */
 .online-reg-form {
     border-radius: 6px;
 }
@@ -302,6 +304,7 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* the interactive photo gallery */
 .interactive-gallery {
     border-radius: 6px;
 }
@@ -320,6 +323,8 @@ nav a:hover {
     margin: 0;
     text-decoration: none;
 }
+
+/* the game show app unit */
 .game-show-app {
     border-radius: 6px;
 }
@@ -337,6 +342,9 @@ nav a:hover {
     padding: 10px 0 10px 0;
     margin: 0;
 }
+
+
+/* the dashboard unit */
 .dashboard {
     border-radius: 6px;
 }
@@ -350,6 +358,7 @@ nav a:hover {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
+    color: black;
     padding: 10px 0 10px 0;
     margin: 0;
 }
@@ -386,8 +395,16 @@ nav a:hover {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 7px 0;
     margin: 0;
+}
+.independent p {
+    font-family: 'inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0 0 10px 0;
 }
 
 
@@ -525,16 +542,18 @@ footer img {
         grid-template-rows: 200px 200px 200px 180px;
         gap: 10px;
     }
-    .my-treehouse-projects .item {
-        
+    .my-treehouse-projects .item:hover {
+        border: 1px solid turquoise;
     }
     .item-1 {
+        height: 420px;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
     }
     .item-2 {
+        height: 420px;
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -547,6 +566,7 @@ footer img {
         grid-row-end: 5;
     }
     .item-4 {
+        height: 375px;
         grid-column-start: -3;
         grid-column-end: -1;
     }
@@ -557,7 +577,15 @@ footer img {
     }
     .independent .title {
         font-size: 23px;
-        padding: 17px 0;
+        padding: 6px 0;
+    }
+    .independent p {
+        display: block;
+        margin: 0 auto;
+        padding: 0 0 17px 0;
+        width: 75%;
+        font-size: 13px;
+        text-align: left;
     }
     
 
@@ -570,7 +598,6 @@ footer img {
         width: 200px;
     }
     .the-future p {
-        font-family: 'SourceSans+3', helvetica, sans-serif;
         padding-left: 5px;
     }
 }
