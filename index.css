@@ -275,9 +275,19 @@ nav a:hover {
     width: 95%;
 }
 .my-treehouse-projects .item {
+    /* border: 1px solid red; */
     background-color: white;
     margin: 0 0 15px 0;
 }
+/* .my-treehouse-projects .item a {
+    border: 2px solid blue;
+} */
+/* .my-treehouse-projects .item img {
+    border: 2px solid green;
+}
+.my-treehouse-projects .item h2 {
+    border: 1px solid black;
+} */
 
 
 /* the online reg form */
@@ -484,6 +494,9 @@ footer img {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+
+    /* ABOUT ME SECTION/AREA */
     .about-me {
         place-content: start;
     }
@@ -498,6 +511,12 @@ footer img {
         margin: 0;
         padding: 0 0 0 5px;
     }
+
+    /* MY EXPERIENCE */
+    .my-experience p {
+        padding-left: 5px;
+    }
+
 
     .education {
         width: 97%;
@@ -544,7 +563,18 @@ footer img {
         gap: 20px;
     }
     .my-treehouse-projects .item {
-        /* border: 1px solid blue; */
+        border: 1px solid blue;
+    }
+    .my-treehouse-projects .item a {
+        border: 1px solid red;
+    }
+    .my-treehouse-projects .item img {
+        border: 2px solid green;
+    }
+    .my-treehouse-projects .item h2 {
+        border: 2px solid black;
+        margin: 0;
+        padding: 0;
     }
     .my-treehouse-projects .item:hover {
         /* border: 1px solid turquoise; */
