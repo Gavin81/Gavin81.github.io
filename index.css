@@ -259,7 +259,7 @@ nav a:hover {
 }
 
 
-/* My units section */
+/* My Treehouse Techdegree units section */
 .projects-headline {
     font-family: 'inter', sans-serif;
     font-size: 19px;
@@ -278,9 +278,7 @@ nav a:hover {
     background-color: white;
     margin: 0 0 15px 0;
 }
-.my-treehouse-projects .item:hover {
-    border: 1px solid turquoise;
-}
+
 
 /* the online reg form */
 .online-reg-form {
@@ -469,6 +467,7 @@ footer img {
 }
 
 
+
 /* TABLET MEDIA QUERIES *********************************************************************/
 @media only screen and (min-width: 768px) {
     
@@ -515,11 +514,13 @@ footer img {
     }
 
 
+
+    /* SOME OF MY TECHDEGREE UNITS */
     .my-treehouse-projects {
-        background-color: white;
+        background-color: ;
         display: block;
         margin: 0 auto;
-        width: 97%;
+        width: 96%;
         margin-top: 15px;
         margin-bottom: 15px;
         padding: 0;
@@ -540,10 +541,15 @@ footer img {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 200px 200px 200px 180px;
-        gap: 10px;
+        gap: 20px;
+    }
+    .my-treehouse-projects .item {
+        /* border: 1px solid blue; */
     }
     .my-treehouse-projects .item:hover {
-        border: 1px solid turquoise;
+        /* border: 1px solid turquoise; */
+        box-shadow: 5px 5px 0 0 lightgrey;
+        transition: box-shadow 0.3s ease-in-out;
     }
     .item-1 {
         height: 420px;
@@ -572,6 +578,8 @@ footer img {
     }
 
 
+
+/* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .independent {
         height: 350px;
     }
@@ -589,7 +597,7 @@ footer img {
     }
     
 
-
+/* MY FUTURE TABLET CSS STLYES */
     .the-future {
         
     }
