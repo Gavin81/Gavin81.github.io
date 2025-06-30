@@ -445,7 +445,7 @@ nav a:hover {
 }
 .independent .text a {
     border: 1px solid turquoise;
-    border-radius: 6px;
+    border-radius: 5px;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -453,6 +453,10 @@ nav a:hover {
     color: white;
     font-size: 21px;
     text-align: center;
+}
+.independent .text a:hover {
+    background-color: turquoise;
+    color: #008cba;
 }
 
 
