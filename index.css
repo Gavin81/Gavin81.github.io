@@ -411,6 +411,49 @@ nav a:hover {
     margin: 0;
     padding: 0 0 10px 0;
 }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008cba;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.independent {
+    position: relative;
+    width: 95%;
+}
+.independent:hover .overlay {
+    border-radius: 6px;
+    width: 100%;
+    left: 0;
+}
+.text {
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.independent .text a {
+    border: 1px solid turquoise;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px 0;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
 
 
 
