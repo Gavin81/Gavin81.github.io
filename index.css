@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #f8f8f8;
     margin: 0;
@@ -184,6 +187,15 @@ nav a:hover {
     font-weight: 300;
     margin: 0;
     padding: 15px 0 15px 0;
+}
+.my-experience h4 {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Cinzel'; */
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0 0 0;
 }
 .my-experience p {
     font-size: 0.8rem;
@@ -508,18 +520,21 @@ footer ul {
     flex-direction: row;
     list-style: none;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 footer li {
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 footer a {
     color: turquoise;
 }
 footer img {
-    width: 50px;
-    height: 25px;
+    width: 65px;
+    height: 40px;
+}
+footer img:hover {
+    cursor: pointer;
 }
 
 
@@ -541,7 +556,7 @@ footer img {
         grid-template-columns: 1fr 1fr;
     }
 
-
+    
 
     /* ABOUT ME SECTION/AREA */
     .about-me {
@@ -587,7 +602,6 @@ footer img {
 
     /* SOME OF MY TECHDEGREE UNITS */
     .my-treehouse-projects {
-        background-color: ;
         display: block;
         margin: 0 auto;
         width: 96%;
@@ -631,11 +645,16 @@ footer img {
         transition: box-shadow 0.3s ease-in-out;
     }
     .item-1 {
+        display: flex;
+        justify-content: center;
         height: 420px;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
+    }
+    .item-1 img {
+        max-width: 100%;
     }
     .item-2 {
         height: 420px;
@@ -679,10 +698,11 @@ footer img {
 /* MY FUTURE TABLET CSS STLYES */
     .the-future img {
         height: 300px;
-        width: 200px;
+        /* width: 200px; */
+        max-width: 200px;
     }
     .the-future p {
-        padding-left: 5px;
+        /* padding-left: 5px; */
     }
 }
 
