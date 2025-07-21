@@ -190,12 +190,11 @@ nav a:hover {
 }
 .my-experience h4 {
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Cinzel'; */
     font-weight: 300;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 10px 0 5px 0;
 }
 .my-experience p {
     font-size: 0.8rem;
