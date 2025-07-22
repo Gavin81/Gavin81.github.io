@@ -256,7 +256,7 @@ nav a:hover {
     margin: 0 auto;
     padding-top: 5px;
     width: 65%;
-    height: 170px;
+    height: 160px;
 }
 .treehouse h3 {
     font-family: 'inter', sans-serif;
@@ -265,7 +265,7 @@ nav a:hover {
     padding: 10px 0 10px 0;
     text-align: center;
 }
-.treehouse #zoomBIn {
+.treehouse .zoomBIn {
     width: 150px;
     height: 150px;
     margin-top: 12px;
