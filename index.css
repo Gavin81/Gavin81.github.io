@@ -12,7 +12,6 @@ body {
 
 
 header {
-    background-color: ;
     margin: 0;
     height: 98px;
 }
@@ -120,6 +119,10 @@ nav a:hover {
 }
 
 
+.grid {
+
+}
+
 
 /* ABOUT ME */
 .about-me {
@@ -175,10 +178,6 @@ nav a:hover {
 */
 
 
-hr {
- display: none;
-}
-
 
 /* MY EXPERIENCE */
 .my-experience {
@@ -212,7 +211,8 @@ hr {
     padding: 10px 0 5px 4px;
 }
 .my-experience p {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
+    font-size: 13px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #7f858f;
