@@ -181,7 +181,7 @@ nav a:hover {
 
 /* MY EXPERIENCE */
 .my-experience {
-    border-radius: 6px;
+    border-radius: 0;
     background-color: white;
     margin-bottom: 15px;
     padding-top: 10px;
