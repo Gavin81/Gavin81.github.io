@@ -119,17 +119,13 @@ nav a:hover {
 }
 
 
-.grid {
-
-}
-
 
 /* ABOUT ME */
 .about-me {
-    border-radius: 0px;
-    /* display: grid; */
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 25px;
     background-color: white;
 }
@@ -178,13 +174,37 @@ nav a:hover {
 */
 
 
+.my-education {
+    /* border: 1px solid red; */
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 0 35px 0;
+}
+.my-education h4 {
+    font-size: 30px;
+    text-align: left;
+    font-family: "inter", sans-serif;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    padding: 0 0 15px 0;
+}
+.my-education p {
+    font-family: "inter", sans-serif;
+    color: #7f858f;
+    font-size: 0.8rem;
+    margin: 0 10px 0 20px;
+}
+
 
 /* MY EXPERIENCE */
 .my-experience {
+    border-bottom: 1px solid lightgrey;
     border-radius: 0;
     background-color: white;
     margin-bottom: 15px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 .my-experience img {
     border-radius: 5px;
@@ -195,10 +215,10 @@ nav a:hover {
 }
 .my-experience h3 {
     font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 300;
-    margin: 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 0 20px;
     padding: 15px 0 15px 0;
 }
 .my-experience h4 {
@@ -212,16 +232,31 @@ nav a:hover {
 }
 .my-experience p {
     /* font-size: 0.8rem; */
-    font-size: 13px;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #7f858f;
-    margin: 0;
+    margin: 0 0 0 20px;
     padding: 0 0 10px 4px;
 }
 .my-experience p a {
     color: teal;
 }
+.work h4 {
+    margin: 0 0 0 20px;
+}
+.work span {
+    margin-right: 5px;
+    padding: 5px 5px 5px ;
+    color: black;
+}
+#intheory-icon {
+    background-color: turquoise;
+}
+#carnival-icon {
+    background-color: rgb(75, 207, 119);
+}
+
 
 
 /* THIS IS THE AREA OF EDUCATION */
