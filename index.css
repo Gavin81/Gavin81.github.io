@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     margin: 0;
 }
 
@@ -145,7 +145,7 @@ nav a:hover {
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 0;
     width: 96%;
     height: 200px;
 }
@@ -187,10 +187,9 @@ nav a:hover {
 */
 
 
+/* MY EDUCATION WHERE I'VE BEEN TO STUDY */
 .my-education {
-    /* border: 1px solid red; */
     background-color: white;
-    border-bottom: 1px solid lightgrey;
     padding: 20px 0 35px 0;
 }
 .my-education h4 {
@@ -208,6 +207,19 @@ nav a:hover {
     font-size: 0.8rem;
     margin: 0 10px 0 20px;
 }
+
+
+
+/* THE ICONS OF PLACES OF MY EDUCATION */
+.education {
+    background-color: #f8f8f8;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
 
 
 /* MY EXPERIENCE */
@@ -272,20 +284,12 @@ nav a:hover {
 
 
 
-/* THIS IS THE AREA OF EDUCATION */
-.education {
-    display: block;
-    margin: 0 auto;
-    width: 95%;
-}
-
-
-
 /* visual basic section */
 .visual-basic {
     border-radius: 6px;
-    /* display: block;
-    margin: 0 auto; */
+    display: block;
+    margin: 0 auto;
+    width: 90%;
     background-color: white;
 }
 .visual-basic img {
@@ -293,31 +297,37 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 70%;
-    height: 200px;
+    width: 80%;
+    height: 190px;
 }
 
 
 /* the open university section */
 .open-university {
     border-radius: 6px;
+    margin: 0 auto;
+    display: block;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 90%;
 }
 .open-university img {
     border-radius: 6px;
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 90%;
-    height: 240px;
+    width: 80%;
+    height: 200px;
 }
 
 /* the treehouse section */
 .treehouse {
     border-radius: 6px;
+    display: block;
+    margin: 0 auto;
     background-color: white;
+    width: 90%;
 }
 .treehouse img {
     display: block;
@@ -341,6 +351,7 @@ nav a:hover {
 } */
 
 
+
 /* My Treehouse Techdegree units section */
 .projects-headline {
     font-family: "inter", sans-serif;
@@ -353,6 +364,12 @@ nav a:hover {
 .my-treehouse-projects {
     border-radius: 6px;
     background-color: #f8f8f8;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.my-treehouse-projects .projects {
     display: block;
     margin: 0 auto;
     width: 95%;
@@ -632,18 +649,26 @@ footer img:hover {
 
     /* ABOUT ME SECTION/AREA */
     .about-me {
+        /* border: 1px solid red; */
         /* place-content: start; */
     }
     .about-me img {
-        margin: 0;
+        /* border: 1px solid blue; */
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 250px;
     }
     .about-me h3 {
         margin: 0;
         padding-block: 1rem;
     }
     .about-me p {
-        margin: 0;
+        /* border: 1px solid green; */
+        display: block;
+        margin: 0 auto;
         padding: 0 0 0 5px;
+        width: 50%;
     }
 
 
