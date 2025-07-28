@@ -268,12 +268,21 @@ nav a:hover {
     color: teal;
 }
 .work h4 {
+    /* border: 1px solid black; */
     margin: 0 0 0 20px;
 }
 .work span {
-    margin-right: 5px;
+    /* margin-right: 5px;
     padding: 5px 5px 5px ;
-    color: black;
+    color: black; */
+}
+.work img {
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 45px;
 }
 #intheory-icon {
     background-color: turquoise;
@@ -355,11 +364,12 @@ nav a:hover {
 /* My Treehouse Techdegree units section */
 .projects-headline {
     font-family: "inter", sans-serif;
-    font-size: 19px;
-    font-weight: 300;
-    color: #7f858f;
-    padding: 20px 0 10px 0;
-    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    /* color: #7f858f; */
+    padding: 20px 0 10px 10px;
+    text-align: left;
 }
 .my-treehouse-projects {
     border-radius: 6px;
@@ -669,18 +679,26 @@ footer img:hover {
         margin: 0 auto;
         padding: 0 0 0 5px;
         width: 50%;
+        font-size: 14px;
     }
 
 
 
-    /* MY EXPERIENCE */
-    .my-experience p {
-        padding-left: 5px;
+    .my-education {
+
+    }
+    .my-education h4 br {
+        display: none;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .my-education p {
+        font-size: 15px;
     }
 
 
 
-    /* MY EDUCATION IN SOFTWARE */
+    /* MY EDUCATION IN SOFTWARE ICONS */
     .education {
         width: 97%;
         display: grid;
@@ -688,11 +706,13 @@ footer img:hover {
         gap: 10px;
     }
     .education .item {
-        width: 300px;
-        height: 300px;
+        width: 230px;
     }
     .open-university {
-        margin: 0 0 0 0;
+        margin: 0;
+    }
+    .treehouse img {
+        margin-top: 10px;
     }
 
 
@@ -712,10 +732,9 @@ footer img:hover {
         width: 100%;
     }
     .my-treehouse-projects .projects-headline {
-        font-size: 25px;
-        display: block;
-        margin: 0 auto;
-        padding: 25px 0;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px 10px;
         width: 100%;
     }
     .my-treehouse-projects .projects {
@@ -770,6 +789,20 @@ footer img:hover {
         height: 375px;
         grid-column-start: -3;
         grid-column-end: -1;
+    }
+
+
+
+    /* MY EXPERIENCE */
+    .my-experience br {
+        display: none;
+    }
+    .my-experience h3 {
+        font-size: 40px;
+    }
+    .my-experience p {
+        font-size: 16px;
+        padding-left: 5px;
     }
 
 
