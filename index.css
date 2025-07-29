@@ -231,10 +231,10 @@ nav a:hover {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.my-experience img {
+.my-experience span {
     border-radius: 5px;
-    display: block;
-    margin: 0 auto;
+    padding: 5px 9px;
+    margin-right: 5px;
     width: 98%;
     height: 200px;
 }
@@ -700,6 +700,7 @@ footer img:hover {
 
     /* MY EDUCATION IN SOFTWARE ICONS */
     .education {
+        background-color: white;
         width: 97%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -732,9 +733,9 @@ footer img:hover {
         width: 100%;
     }
     .my-treehouse-projects .projects-headline {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
-        padding: 10px 10px;
+        padding: 15px 5px;
         width: 100%;
     }
     .my-treehouse-projects .projects {
@@ -840,7 +841,24 @@ footer img:hover {
 @media only screen and (min-width: 1024px) {
    
 
+    .about-me img {
+        width: 40%;
+    }
     .independent {
+        height: 390px;
+    }
+
+
+    .education {
+        border: 1px solid red;
+    }
+    .education .item {
+        border: 1px solid blue;
+        flex-direction: space-around;
+    }
+
+
+     .independent {
         height: 390px;
     }
     .independent .intheory img {
