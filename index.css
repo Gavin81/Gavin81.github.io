@@ -93,7 +93,7 @@ header {
 /* END OF THE BURGER MENU */
 
 #front-end-developer {
-    border: 1px solid red;
+    border-bottom: 1px solid lightgrey;
 }
 #front-end-developer h1 {
     font-family: Cinzel, sans-serif;
@@ -133,7 +133,6 @@ nav a:hover {
 
 /* ABOUT ME */
 .about-me {
-    border: 1px solid green;
     border-bottom: 1px solid lightgrey;
     border-radius: 0;
     margin: 0 auto;
@@ -147,8 +146,9 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     margin-top: 0;
-    width: 96%;
+    width: 95%;
     height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-me h3 {
     text-align: center;
@@ -676,12 +676,11 @@ footer img:hover {
         padding-block: 1rem;
     }
     .about-me p {
-        /* border: 1px solid green; */
         display: block;
         margin: 0 auto;
         padding: 0 0 0 5px;
         width: 50%;
-        font-size: 14px;
+        font-size: 15px;
     }
 
 
@@ -702,7 +701,6 @@ footer img:hover {
 
     /* MY EDUCATION-IN-SOFTWARE ICONS */
     .education {
-        border: 1px solid red;
         background-color: white;
         width: 97%;
         display: grid;
@@ -710,10 +708,10 @@ footer img:hover {
         gap: 10px;
     }
     .education .item {
-        border: 1px solid blue;
-    }
-    .open-university .item {
         
+    }
+    .open-university {
+        margin: 0 auto;
     }
     .treehouse img {
         border: 1px solid green;
