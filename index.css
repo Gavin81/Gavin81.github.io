@@ -92,6 +92,15 @@ header {
 } */
 /* END OF THE BURGER MENU */
 
+#front-end-developer {
+    border: 1px solid red;
+}
+#front-end-developer h1 {
+    font-family: Cinzel, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
 nav {
     display: none;
 }
@@ -121,22 +130,14 @@ nav a:hover {
 }
 
 
-#gavin-eyquem {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-#gavin-eyquem li {
-    font-family: "Cinzel", sans-serif;
-}
-
-
 
 /* ABOUT ME */
 .about-me {
+    border: 1px solid green;
     border-bottom: 1px solid lightgrey;
     border-radius: 0;
     margin: 0 auto;
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 25px;
     background-color: white;
@@ -219,6 +220,9 @@ nav a:hover {
     padding-bottom: 10px;
     width: 100%;
 }
+/* .education .item {
+    border: 1px solid blue;
+} */
 
 
 
@@ -268,7 +272,6 @@ nav a:hover {
     color: teal;
 }
 .work h4 {
-    /* border: 1px solid black; */
     margin: 0 0 0 20px;
 }
 .work span {
@@ -277,7 +280,6 @@ nav a:hover {
     color: black; */
 }
 .work img {
-    /* border: 1px solid red; */
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -650,10 +652,10 @@ footer img:hover {
         padding: 15px 0 15px 0;
     }
 
-    .grid {
+    /* .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 
     
 
@@ -698,8 +700,9 @@ footer img:hover {
 
 
 
-    /* MY EDUCATION IN SOFTWARE ICONS */
+    /* MY EDUCATION-IN-SOFTWARE ICONS */
     .education {
+        border: 1px solid red;
         background-color: white;
         width: 97%;
         display: grid;
@@ -707,12 +710,13 @@ footer img:hover {
         gap: 10px;
     }
     .education .item {
-        width: 230px;
+        border: 1px solid blue;
     }
-    .open-university {
-        margin: 0;
+    .open-university .item {
+        
     }
     .treehouse img {
+        border: 1px solid green;
         margin-top: 10px;
     }
 
@@ -758,7 +762,7 @@ footer img:hover {
     }
     .my-treehouse-projects .item:hover {
         /* border: 1px solid turquoise; */
-        box-shadow: 5px 5px 0 0 lightgrey;
+        box-shadow: 4px 4px 0 0 lightgrey;
         transition: box-shadow 0.3s ease-in-out;
     }
     .item-1 {
@@ -808,7 +812,7 @@ footer img:hover {
 
 
 
-/* THIS IS MY REINCARNATION TABLET CSS STYLES */
+    /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .independent {
         height: 350px;
     }
@@ -826,7 +830,7 @@ footer img:hover {
     }
     
 
-/* MY FUTURE TABLET CSS STLYES */
+    /* MY FUTURE TABLET CSS STYLES */
     .the-future img {
         height: 300px;
         /* width: 200px; */
@@ -841,6 +845,26 @@ footer img:hover {
 @media only screen and (min-width: 1024px) {
    
 
+    .front-end-heading {
+        border: 1px solid red;
+        margin: 0;
+        padding: 0;
+    }
+    .front-end-heading h1 {
+        border: 1px solid blue;
+        font-family: Cinzel, sans-serif;
+        /* font-family: inter, sans-serif; */
+        font-size: 50px;
+        text-align: center;
+    }
+    nav ul {
+        
+    }
+    nav .front-end-heading {
+        display: block;
+    }
+
+
     .about-me img {
         width: 40%;
     }
@@ -850,15 +874,14 @@ footer img:hover {
 
 
     .education {
-        border: 1px solid red;
+        
     }
     .education .item {
-        border: 1px solid blue;
         flex-direction: space-around;
     }
 
 
-     .independent {
+    .independent {
         height: 390px;
     }
     .independent .intheory img {
