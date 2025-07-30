@@ -154,7 +154,7 @@ nav a:hover {
     text-align: center;
     font-size: 23px;
     font-family: "inter", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin: 0;
     padding: 15px 0 15px 0;
 }
@@ -190,8 +190,10 @@ nav a:hover {
 
 /* MY EDUCATION WHERE I'VE BEEN TO STUDY */
 .my-education {
+    border-bottom: 1px solid lightgrey;
     background-color: white;
-    padding: 20px 0 35px 0;
+    margin: 0;
+    padding: 0;
 }
 .my-education h4 {
     font-size: 30px;
@@ -200,30 +202,53 @@ nav a:hover {
     color: black;
     font-weight: 500;
     margin: 0 0 0 20px;
-    padding: 0 0 15px 0;
+    padding: 10px 0 15px 0;
 }
 .my-education p {
     font-family: "inter", sans-serif;
     color: #7f858f;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0 10px 0 20px;
 }
 
-
-
-/* THE ICONS OF PLACES OF MY EDUCATION */
+/* THE ICONS OF VB/OPEN UNI/TREEHOUSE */
 .education {
     background-color: #f8f8f8;
     display: block;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 15px;
+    padding: 10px;
     width: 100%;
 }
-/* .education .item {
-    border: 1px solid blue;
-} */
 
+
+/* MY TREEHOUSE PROJECTS UNITS */
+.my-treehouse-projects {
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.projects-headline {
+    font-family: "inter", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0 10px 10px;
+    text-align: left;
+}
+.my-treehouse-projects .projects {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+.my-treehouse-projects .item {
+    background-color: white;
+    margin: 0 0 15px 0;
+}
+/* color: #7f858f; */
 
 
 /* MY EXPERIENCE */
@@ -360,36 +385,6 @@ nav a:hover {
     margin-top: 12px;
     margin-bottom: 10px;
 } */
-
-
-
-/* My Treehouse Techdegree units section */
-.projects-headline {
-    font-family: "inter", sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: black;
-    /* color: #7f858f; */
-    padding: 20px 0 10px 10px;
-    text-align: left;
-}
-.my-treehouse-projects {
-    border-radius: 6px;
-    background-color: #f8f8f8;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 5px;
-    width: 100%;
-}
-.my-treehouse-projects .projects {
-    display: block;
-    margin: 0 auto;
-    width: 95%;
-}
-.my-treehouse-projects .item {
-    background-color: white;
-    margin: 0 0 15px 0;
-}
 
 
 
@@ -686,7 +681,7 @@ footer img:hover {
 
 
     .my-education {
-
+        border-bottom: 1px solid lightgrey;
     }
     .my-education h4 br {
         display: none;
@@ -696,7 +691,6 @@ footer img:hover {
     .my-education p {
         font-size: 15px;
     }
-
 
 
     /* MY EDUCATION-IN-SOFTWARE ICONS */
@@ -714,7 +708,6 @@ footer img:hover {
         margin: 0 auto;
     }
     .treehouse img {
-        border: 1px solid green;
         margin-top: 10px;
     }
 
