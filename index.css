@@ -103,7 +103,8 @@ header {
 
 nav {
     border: 1px solid red;
-    display: none;
+    display: ;
+    opacity: 0;
     margin: 0;
     padding: 0;
     height: 0;
@@ -590,6 +591,42 @@ nav a:hover {
     color: #008cba;
 }
 
+
+
+.text-slider {
+    border: 1px solid red;
+    display: contents;
+    box-sizing: border-box;
+}
+.slider {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    will-change: transform;
+    opacity: 1;
+    transform: translateX(10px);
+}
+.slider p {
+    border: 1px solid red;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.slider .grey {
+    color: rgb(127, 133, 143);
+}
+.slider .full-stop {
+    color: rgb(255, 80, 0);
+    margin: 0;
+    padding: 0;
+}
 
 
 /* THE FUTURE */
