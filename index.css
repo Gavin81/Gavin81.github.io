@@ -102,7 +102,11 @@ header {
 }
 
 nav {
+    border: 1px solid red;
     display: none;
+    margin: 0;
+    padding: 0;
+    height: 0;
 }
 nav ul {
     display: flex;
@@ -138,8 +142,8 @@ nav a:hover {
     margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 25px;
-    background-color: white;
+    padding: 10px 0 25px 0;
+    background-color: #434d55;
 }
 .about-me img {
     border-radius: 5px;
@@ -155,6 +159,7 @@ nav a:hover {
     font-size: 23px;
     font-family: "inter", sans-serif;
     font-weight: 500;
+    color: white;
     margin: 0;
     padding: 15px 0 15px 0;
 }
@@ -163,6 +168,7 @@ nav a:hover {
     font-family: "inter", sans-serif;
     /* color: #1a1a1a; */
     color: #7f858f;
+    color: white;
     font-weight: 400;
     text-align: center;
     margin: 0;
@@ -204,6 +210,10 @@ nav a:hover {
     margin: 0 0 0 20px;
     padding: 10px 0 15px 0;
 }
+.my-education span {
+    font-size: 40px;
+    color: rgba(255, 80, 0);
+}
 .my-education p {
     font-family: "inter", sans-serif;
     color: #7f858f;
@@ -224,11 +234,11 @@ nav a:hover {
 
 /* MY TREEHOUSE PROJECTS UNITS */
 .my-treehouse-projects {
+    /* border: 1px solid red; */
     border-radius: 6px;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     display: block;
     margin: 0 auto;
-    padding-bottom: 5px;
     width: 100%;
 }
 .projects-headline {
@@ -236,17 +246,26 @@ nav a:hover {
     font-size: 30px;
     font-weight: 500;
     color: black;
-    padding: 20px 0 10px 10px;
+    margin: 0;
+    padding: 20px 0 20px 5px;
     text-align: left;
 }
+.projects-headline span {
+    font-size: 40px;
+    color: rgba(255, 80, 0);
+    padding: 0;
+}
 .my-treehouse-projects .projects {
+    /* border: 1px solid blue; */
+    background-color: #f8f8f8;
     display: block;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
+    padding: 5px;
 }
 .my-treehouse-projects .item {
     background-color: white;
-    margin: 0 0 15px 0;
+    margin: 10px 0 10px 0;
 }
 /* color: #7f858f; */
 
@@ -274,6 +293,11 @@ nav a:hover {
     font-weight: 500;
     margin: 0 0 0 20px;
     padding: 15px 0 15px 0;
+}
+.my-experience h3 span {
+    font-size: 40px;
+    color: rgba(255, 80, 0);
+    padding: 0;
 }
 .my-experience h4 {
     font-family: "Inter", sans-serif;
@@ -685,6 +709,7 @@ footer img:hover {
 
 
 
+    /* MY EDUCATION AREA */
     .my-education {
         border-bottom: 1px solid lightgrey;
     }
@@ -696,7 +721,6 @@ footer img:hover {
     .my-education p {
         font-size: 15px;
     }
-
 
     /* MY EDUCATION-IN-SOFTWARE ICONS */
     .education {
@@ -720,6 +744,7 @@ footer img:hover {
 
     /* SOME OF MY TECHDEGREE UNITS */
     .my-treehouse-projects {
+        border: 1px solid red;
         display: block;
         margin: 0 auto;
         width: 96%;
