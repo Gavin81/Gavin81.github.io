@@ -13,7 +13,6 @@ body {
 
 header {
     margin: 0;
-    height: 98px;
 }
 
 /* THE BURGER MENU */
@@ -102,12 +101,11 @@ header {
 }
 
 nav {
-    border: 1px solid red;
-    display: ;
-    opacity: 0;
+    display: none;
+    /* opacity: 0;
     margin: 0;
     padding: 0;
-    height: 0;
+    height: 0; */
 }
 nav ul {
     display: flex;
@@ -143,7 +141,7 @@ nav a:hover {
     margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 10px 0 25px 0;
+    padding: 25px 0 25px 0;
     background-color: #434d55;
 }
 .about-me img {
@@ -501,6 +499,36 @@ nav a:hover {
 
 
 
+.what-I-am-working-on {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.what-I-am-working-on p {
+    border: 1px solid red;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.what-I-am-working-on .grey-text {
+    color: rgb(127, 133, 143);
+}
+.what-I-am-working-on .full-stop {
+    color: rgb(255, 80, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
 /* my own independent work or website */
 .independent {
     background-color: white;
@@ -593,40 +621,7 @@ nav a:hover {
 
 
 
-.text-slider {
-    border: 1px solid red;
-    display: contents;
-    box-sizing: border-box;
-}
-.slider {
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    will-change: transform;
-    opacity: 1;
-    transform: translateX(10px);
-}
-.slider p {
-    border: 1px solid red;
-    font-family: "Inter", sans-serif;
-    font-size: 34px;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    text-align: left;
-    color: rgb(17, 17, 17);
-    margin: 0;
-    padding: 0;
-    width: 90%;
-}
-.slider .grey {
-    color: rgb(127, 133, 143);
-}
-.slider .full-stop {
-    color: rgb(255, 80, 0);
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /* THE FUTURE */
@@ -704,13 +699,19 @@ footer img:hover {
 /* TABLET MEDIA QUERIES *********************************************************************/
 @media only screen and (min-width: 768px) {
     
+    nav {
+        display: block;
+        margin: 0;
+    }
     nav ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
     nav li {
-        padding: 15px 0 15px 0;
+        padding: 15px 15px 15px 15px;
     }
 
     /* .grid {
@@ -722,11 +723,9 @@ footer img:hover {
 
     /* ABOUT ME SECTION/AREA */
     .about-me {
-        /* border: 1px solid red; */
-        /* place-content: start; */
+        
     }
     .about-me img {
-        /* border: 1px solid blue; */
         display: block;
         margin: 0 auto;
         width: 50%;
@@ -900,27 +899,34 @@ footer img:hover {
 }
 
 
+/* DESKTOP MEDIA QUERIES *****************************************************/
 @media only screen and (min-width: 1024px) {
    
 
     .front-end-heading {
-        border: 1px solid red;
         margin: 0;
         padding: 0;
     }
     .front-end-heading h1 {
-        border: 1px solid blue;
         font-family: Cinzel, sans-serif;
-        /* font-family: inter, sans-serif; */
         font-size: 50px;
         text-align: center;
     }
-    nav ul {
-        
-    }
-    nav .front-end-heading {
+
+    nav {
+        border: 1px solid red;
         display: block;
     }
+    nav ul {
+        border: 1px solid blue;
+    }
+    nav li {
+        border: 2px solid green;
+    }
+    nav li a {
+        
+    }
+
 
 
     .about-me img {
