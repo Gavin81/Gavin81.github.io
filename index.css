@@ -269,79 +269,6 @@ nav a:hover {
 /* color: #7f858f; */
 
 
-/* MY EXPERIENCE */
-.my-experience {
-    border-bottom: 1px solid lightgrey;
-    border-radius: 0;
-    background-color: white;
-    margin-bottom: 15px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-.my-experience span {
-    border-radius: 5px;
-    padding: 5px 9px;
-    margin-right: 5px;
-    width: 98%;
-    height: 200px;
-}
-.my-experience h3 {
-    font-family: 'Inter', sans-serif;
-    text-align: left;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0 0 0 20px;
-    padding: 15px 0 15px 0;
-}
-.my-experience h3 span {
-    font-size: 40px;
-    color: rgba(255, 80, 0);
-    padding: 0;
-}
-.my-experience h4 {
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    text-align: left;
-    font-size: 18px;
-    color: #7f858f;
-    margin: 0;
-    padding: 10px 0 5px 4px;
-}
-.my-experience p {
-    /* font-size: 0.8rem; */
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    color: #7f858f;
-    margin: 0 0 0 20px;
-    padding: 0 0 10px 4px;
-}
-.my-experience p a {
-    color: teal;
-}
-.work h4 {
-    margin: 0 0 0 20px;
-}
-.work span {
-    /* margin-right: 5px;
-    padding: 5px 5px 5px ;
-    color: black; */
-}
-.work img {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    height: 40px;
-    width: 45px;
-}
-#intheory-icon {
-    background-color: turquoise;
-}
-#carnival-icon {
-    background-color: rgb(75, 207, 119);
-}
-
-
 
 /* visual basic section */
 .visual-basic {
@@ -499,16 +426,89 @@ nav a:hover {
 
 
 
+/* MY WORK EXPERIENCE TO GO HERE */
+.my-experience {
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.my-experience span {
+    border-radius: 5px;
+    padding: 5px 9px;
+    margin-right: 5px;
+    width: 98%;
+    height: 200px;
+}
+.my-experience h3 {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    padding: 15px 0 15px 0;
+}
+.my-experience h3 span {
+    font-size: 40px;
+    color: rgba(255, 80, 0);
+    padding: 0;
+}
+.my-experience h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 18px;
+    color: #7f858f;
+    margin: 0;
+    padding: 10px 0 5px 4px;
+}
+.my-experience p {
+    /* font-size: 0.8rem; */
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #7f858f;
+    margin: 0 0 0 20px;
+    padding: 0 0 10px 4px;
+}
+.my-experience p a {
+    color: teal;
+}
+.work h4 {
+    margin: 0 0 0 20px;
+}
+.work span {
+    /* margin-right: 5px;
+    padding: 5px 5px 5px ;
+    color: black; */
+}
+.work img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 45px;
+}
+#intheory-icon {
+    background-color: turquoise;
+}
+#carnival-icon {
+    background-color: rgb(75, 207, 119);
+}
+
+
+
+/* WHAT IVE BEEN WORKING ON SO FAR */
 .what-I-am-working-on {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 10px 0;
 }
 .what-I-am-working-on p {
-    border: 1px solid red;
     font-family: "Inter", sans-serif;
     font-size: 34px;
     font-weight: 600;
@@ -516,7 +516,7 @@ nav a:hover {
     text-align: left;
     color: rgb(17, 17, 17);
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 20px;
     width: 90%;
 }
 .what-I-am-working-on .grey-text {
@@ -529,7 +529,7 @@ nav a:hover {
 }
 
 
-/* my own independent work or website */
+/* MY OWN REINCARNATION WEBSITE  */
 .independent {
     background-color: white;
     display: block;
@@ -618,9 +618,6 @@ nav a:hover {
     background-color: turquoise;
     color: #008cba;
 }
-
-
-
 
 
 
