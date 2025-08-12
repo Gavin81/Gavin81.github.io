@@ -662,6 +662,8 @@ nav a:hover {
     font-weight: 600;
     text-align: left;
     color: black;
+}.marple-carnival-app h2 span {
+    color: #7f858f;
 }
 .marple-carnival-app #full-stop {
     color: rgb(255, 80, 0);
@@ -838,10 +840,9 @@ footer img:hover {
 
     /* SOME OF MY TECHDEGREE UNITS */
     .my-treehouse-projects {
-        border: 1px solid red;
         display: block;
         margin: 0 auto;
-        width: 96%;
+        width: 98%;
         margin-top: 15px;
         margin-bottom: 15px;
         padding: 0;
@@ -913,7 +914,11 @@ footer img:hover {
 
 
 
-    /* MY EXPERIENCE */
+    /* MY WORK EXPERIENCE */
+    .my-experience {
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
     .my-experience br {
         display: none;
     }
@@ -926,14 +931,19 @@ footer img:hover {
     }
 
 
+    .what-I-am-working-on {
+        border-bottom: none;
+    }
+
+
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .independent {
         height: 350px;
     }
-    .independent .title {
+    .reincarnation-work h2.title {
         font-size: 23px;
-        padding: 6px 0;
+        padding: 6px 0 6px 20px;
     }
     .independent p {
         display: block;
