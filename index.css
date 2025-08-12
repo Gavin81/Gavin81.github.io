@@ -830,9 +830,11 @@ footer img:hover {
         
     }
     .open-university {
+        width: 250px;
         margin: 0 auto;
     }
     .treehouse img {
+        width: 130px;
         margin-top: 10px;
     }
 
@@ -854,8 +856,8 @@ footer img:hover {
     }
     .my-treehouse-projects .projects-headline {
         font-size: 25px;
-        text-align: center;
-        padding: 15px 5px;
+        text-align: left;
+        padding: 15px 0 15px 20px;
         width: 100%;
     }
     .my-treehouse-projects .projects {
@@ -938,27 +940,44 @@ footer img:hover {
 
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
-    .independent {
-        height: 350px;
+    .reincarnation-work {
+        border-bottom: 1px solid lightgrey;
     }
     .reincarnation-work h2.title {
         font-size: 23px;
-        padding: 6px 0 6px 20px;
+        padding: 20px 0 20px 20px;
     }
-    .independent p {
+    .independent {
+        height: 350px;
+    }
+    .independent img {
+        height: 300px;
+    }
+    .reincarnation-work .theory {
+        margin: 0;
+    }
+
+
+    .marple-carnival-app {
+        
+    }
+    .marple-carnival-app h2 {
+        padding: 20px 0 20px 20px;
+    }
+    .marple-carnival-app p {
+        padding: 0 0 0 21px;
+    }
+    .marple-carnival-app img {
         display: block;
         margin: 0 auto;
-        padding: 0 0 17px 0;
-        width: 75%;
-        font-size: 13px;
-        text-align: left;
+        height: 150px;
+        width: 94%;
     }
     
 
     /* MY FUTURE TABLET CSS STYLES */
     .the-future img {
         height: 300px;
-        /* width: 200px; */
         max-width: 200px;
     }
     .the-future p {
