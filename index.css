@@ -537,9 +537,11 @@ nav a:hover {
 }
 
 
+
 /* MY OWN REINCARNATION WEBSITE  */
 .reincarnation-work {
     border-bottom: 1px solid lightgrey;
+    display: block;
     margin: 20px 0 20px 0;
     padding: 0;
 }
@@ -560,6 +562,7 @@ nav a:hover {
     display: block;
     border-radius: 6px;
     margin: 0 auto;
+    margin-bottom: 10px;
     padding: 0;
     width: 95%;
 }
@@ -614,7 +617,7 @@ nav a:hover {
 }
 .independent {
     position: relative;
-    width: 95%;
+    width: 96%;
 }
 .independent:hover .overlay {
     border-radius: 6px;
@@ -647,6 +650,12 @@ nav a:hover {
 .independent .text a:hover {
     background-color: turquoise;
     color: #008cba;
+}
+.leininger {
+
+}
+.leininger iframe {
+    width: 100%;
 }
 
 
@@ -942,12 +951,14 @@ footer img:hover {
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
         border-bottom: 1px solid lightgrey;
+        display: flex;
     }
     .reincarnation-work h2.title {
         font-size: 23px;
         padding: 20px 0 20px 20px;
     }
     .independent {
+        border: 1px solid red;
         height: 350px;
     }
     .independent img {
@@ -955,6 +966,10 @@ footer img:hover {
     }
     .reincarnation-work .theory {
         margin: 0;
+    }
+    .leininger iframe {
+        border: 1px solid blue;
+        width: 100%;
     }
 
 
