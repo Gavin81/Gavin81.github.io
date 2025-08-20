@@ -950,16 +950,30 @@ footer img:hover {
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
+        border: 1px solid red;
         border-bottom: 1px solid lightgrey;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px 0 50px 0;
     }
     .reincarnation-work h2.title {
         font-size: 23px;
-        padding: 20px 0 20px 20px;
+        /* padding: 20px 0 20px 20px; */
+        padding-bottom: 20px;
+        padding-left: 23px;
+        flex-basis: 100%;
     }
-    .independent {
-        border: 1px solid red;
+    .independent,
+    .leininger {
+        /* height: 350px; */
+        flex-basis: 50%;
+    }
+    .independent,
+    .leininger iframe {
         height: 350px;
+        margin: initial;
+        width: initial;
     }
     .independent img {
         height: 300px;
@@ -968,11 +982,11 @@ footer img:hover {
         margin: 0;
     }
     .leininger iframe {
-        border: 1px solid blue;
         width: 100%;
     }
 
 
+    /* MARPLE CARNIVAL APP */
     .marple-carnival-app {
         
     }
