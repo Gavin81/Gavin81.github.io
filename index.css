@@ -195,7 +195,6 @@ nav a:hover {
 
 /* MY EDUCATION WHERE I'VE BEEN TO STUDY */
 .my-education {
-    border-bottom: 1px solid lightgrey;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -206,8 +205,8 @@ nav a:hover {
     font-family: "inter", sans-serif;
     color: black;
     font-weight: 500;
-    margin: 0 0 0 20px;
-    padding: 10px 0 15px 0;
+    margin: 0;
+    padding: 10px 0 15px 20px;
 }
 .my-education span {
     font-size: 40px;
@@ -233,7 +232,6 @@ nav a:hover {
 
 /* MY TREEHOUSE PROJECTS UNITS */
 .my-treehouse-projects {
-    /* border: 1px solid red; */
     border-radius: 6px;
     /* background-color: #f8f8f8; */
     display: block;
@@ -242,11 +240,11 @@ nav a:hover {
 }
 .projects-headline {
     font-family: "inter", sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     color: black;
     margin: 0;
-    padding: 20px 0 20px 5px;
+    padding: 40px 0 40px 20px;
     text-align: left;
 }
 .projects-headline span {
@@ -502,7 +500,7 @@ nav a:hover {
 
 /* WHAT IVE BEEN WORKING ON SO FAR */
 .what-I-am-working-on {
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -540,7 +538,6 @@ nav a:hover {
 
 /* MY OWN REINCARNATION WEBSITE  */
 .reincarnation-work {
-    border-bottom: 1px solid lightgrey;
     display: block;
     margin: 0;
     padding: 0;
@@ -597,12 +594,12 @@ nav a:hover {
     margin: 0;
 }
 .independent p {
-    font-family: 'inter', sans-serif;
+    /* font-family: 'inter', sans-serif;
     font-size: 12px;
     text-align: center;
     color: #7f858f;
     margin: 0;
-    padding: 0 0 10px 0;
+    padding: 0 0 10px 0; */
 }
 .overlay {
     position: absolute;
@@ -664,10 +661,11 @@ nav a:hover {
 /* MARPLE CARNIVAL APP */
 .marple-carnival-app {
     border-bottom: 1px solid lightgrey;
+    padding: 50px 0 50px 0;
 }
 .marple-carnival-app h2 {
     margin: 0;
-    padding: 20px 0 20px 4px;
+    padding: 20px 0 20px 7px;
     font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 600;
@@ -952,7 +950,6 @@ footer img:hover {
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
-        border-bottom: 1px solid lightgrey;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1026,6 +1023,7 @@ footer img:hover {
 @media only screen and (min-width: 1024px) {
    
 
+    /* THE FRONT END PAGE TITLE */
     .front-end-heading {
         margin: 0;
         padding: 0;
@@ -1036,46 +1034,54 @@ footer img:hover {
         text-align: center;
     }
 
+
+    /* THE NAVIGATION BAR */
     nav {
-        border: 1px solid red;
         display: block;
     }
-    nav ul {
-        border: 1px solid blue;
-    }
-    nav li {
-        border: 2px solid green;
-    }
-    nav li a {
-        
-    }
+    
 
-
-
+    /* ABOUT ME */
     .about-me img {
         width: 40%;
     }
-    .independent {
-        height: 390px;
-    }
 
 
-    .education {
-        
-    }
+       
     .education .item {
         flex-direction: space-around;
     }
-
-
-    .independent {
-        height: 390px;
+    .education .item:hover {
+        border: 1px solid turquoise;
     }
-    .independent .intheory img {
-        display: block;
-        margin: 0 auto;
-        height: 250px;
-        width: 800px;
+
+
+    /* REINCARNATION INDEPENDENT WORK */
+    .independent {
+               
+    }
+
+
+    /* MARPLE CARNIVAL APP */
+    .marple-carnival-app {
+
+    }
+    .marple-carnival-app h2 {
+
+    }
+    .marple-carnival-app p {
+        font-size: 16px;
+    }
+    .marple-carnival-app img {
+        width: 96%;
+    }
+    
+
+    .the-future {
+
+    }
+    .the-future p {
+        font-size: 16px;
     }
 
 }
