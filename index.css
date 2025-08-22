@@ -150,7 +150,6 @@ nav a:hover {
     font-size: 23px;
     font-family: "inter", sans-serif;
     font-weight: 500;
-    color: ;
     margin: 0;
     padding: 15px 0 15px 0;
 }
@@ -724,6 +723,24 @@ nav a:hover {
 }
 
 
+.experiment {
+    padding: 0;
+}
+.experiment p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #7f858f;
+    margin: 0;
+    padding: 0 0 7px 7px;
+}
+.experiment iframe {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /* footer */
 footer {
@@ -1006,6 +1023,31 @@ footer img:hover {
     .the-future p {
         padding-left: 10px;
     }
+
+
+    .experiment {
+        border: 1px solid turquoise;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .experiment p {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        color: #7f858f;
+        margin-top: 27%;
+        padding-left: 10px;
+    }
+    .experiment iframe {
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .experiment div {
+        flex-basis: 50%;
+        margin: initial;
+        width: initial;
+    }
     
 }
 
@@ -1080,6 +1122,11 @@ footer img:hover {
     }
     .the-future p {
         font-size: 16px;
+    }
+
+
+    .experiment p {
+        margin-top: 20%;
     }
 
 }
