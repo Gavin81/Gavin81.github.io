@@ -1091,7 +1091,7 @@ footer img:hover {
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-        background-color: rgb(116, 182, 182);
+        border: 1px solid red;
     }
     .independent,
     .leininger {
