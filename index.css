@@ -642,6 +642,26 @@ nav a:hover {
 }
 
 
+
+.leininger {
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+.leininger p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #7f858f;
+    padding: 0 0 0 5px;
+}
+.leininger iframe {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 97%;
+}
+
+
+
 /* MARPLE CARNIVAL APP */
 .marple-carnival-app {
     border-bottom: 1px solid lightgrey;
@@ -984,7 +1004,18 @@ footer img:hover {
     .jim-tucker p {
         font-size: 15px;
     }
-           
+    
+
+    .leininger {
+        
+    }
+    .leininger p {
+        font-size: 16px;
+        padding: 0 0 0 20px;
+    }
+    .leininger iframe {
+        height: 400px;
+    }
 
 
     /* MARPLE CARNIVAL APP */
@@ -1086,15 +1117,45 @@ footer img:hover {
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-        border: 1px solid red;
-        display: flex;
+       border: 1px solid red;
+       margin: 0;
+       padding: 0;
     }
     .reincarnation-work .title {
-        flex-basis: 100%;
+        border: 1px solid black;
+        margin: 0;
+        padding: 0;
     }
-    .jim-tucker,
+    .jim-tucker p {
+        border: 1px solid green;
+        margin: 0;
+        padding: 0;
+    }
     .independent {
+        margin: 0;
+        padding: 0;
+    }
+    .independent img {
+        border: 1px solid blue;
+        height: ;
+    }
+    .overlay {
+        height: ;
+    }
+    
+
+
+
+    .leininger {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .leininger div {
         flex-basis: 50%;
+    }
+    .leininger p {
+        margin: 150px 0 0 0;
     }
 
 
