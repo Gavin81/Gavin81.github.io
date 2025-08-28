@@ -520,51 +520,62 @@ nav a:hover {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 21px;
     color: #7f858f;
 }
 
 
 
-/* MY OWN REINCARNATION WEBSITE  */
+/* REINCARNATION WEBSITE  */
 .reincarnation-work {
     display: block;
     margin: 0;
     padding: 0;
 }
-.reincarnation-work h2.title {
+.reincarnation-work h2 {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     margin: 0;
     padding: 20px 0 20px 7px;
 }
-.reincarnation-work h2.title span {
+.reincarnation-work h2 span {
     color: #7f858f;
 }
-.reincarnation-work h2.title #full-stop {
+.reincarnation-work h2 #full-stop {
     color: rgb(255, 80, 0);
+}
+.reincarnation-work p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #7f858f;
+    margin: 0;
+    padding: 0 3px 0 5px;
+}
+.reincarnation-work #jim-tucker-button {
+    border: 1px solid turquoise;
+    border-radius: 4px;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #7f858f;
+    text-align: center;
+    margin: 4px;
+    padding: 14px 0 14px 0;
+    transition: all 1s ease-in-out;
+}
+.reincarnation-work #jim-tucker-button:hover {
+    background-color: turquoise;
+    color: black;
 }
 .independent {
     background-color: white;
     display: block;
     border-radius: 6px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 510x;
     padding: 0;
     width: 95%;
-}
-.independent h2.title {
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: left;
-    margin: 0;
-    padding: 10px 0 10px 0;
-    color: black;
-}
-.independent h2.title span {
-    font-family: "Inter", sans-serif;
-    color: #7f858f;
 }
 .intheory {
     border-radius: 6px;
@@ -574,77 +585,14 @@ nav a:hover {
     height: 220px;
     width: 100%;
 }
-.intheory h2 {
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #7f858f;
-    text-align: center;
-    padding: 10px 0 7px 0;
-    margin: 0;
-}
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: #008cba;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-}
 .independent {
-    position: relative;
-    width: 96%;
-}
-.independent:hover .overlay {
-    border-radius: 6px;
-    width: 100%;
-    left: 0;
-}
-.text {
-    color: white;
-    font-size: 19px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-}
-.independent .text a {
-    border-radius: 5px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 5px;
-    padding: 10px 0;
-    color: white;
-    font-size: 21px;
-    text-align: center;
-}
-.independent .text a:hover {
-    color: turquoise;
-}
-.jim-tucker {
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    color: #7f858f;
-    padding-left: 5px;
-}
-.jim-tucker p {
-    font-size: 15px;
-}
-.jim-tucker a {
-    color: black;
+    width: 98%;
 }
 
 
-
+/* JAMES LEIINGER */
 .leininger {
-    margin: 50px 0 0 0;
+    margin: 0;
     padding: 0;
 }
 .leininger p {
@@ -967,51 +915,41 @@ footer img:hover {
     .what-I-am-working-on {
         border-bottom: none;
     }
+    .what-I-am-working-on .two-projects {
+        padding-left: 22px;
+    }
 
 
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 50px 0 50px 0;
+        
     }
-    .reincarnation-work h2.title {
-        font-size: 23px;
-        padding-bottom: 20px;
-        padding-left: 23px;
-        flex-basis: 100%;
+    .reincarnation-work h2 {
+        font-size: 20px;
+        padding-left: 20px;
     }
-    .independent {
-        flex-basis: 96%;
+    .reincarnation-work p {
+        font-size: 16px;
+        padding-left: 20px;
     }
-    .independent {
-        height: 350px;
-        margin: initial;
-        width: initial;
+    .reincarnation-work #jim-tucker-button {
+        margin: 10px auto;
+        width: 50%;
     }
     .independent img {
-        height: 300px;
-    }
-    .reincarnation-work .theory {
-        margin: 0;
-    }
-    .jim-tucker {
-        padding-left: 23px;
-        padding-right: 5px;
-    }
-    .jim-tucker p {
-        font-size: 15px;
+        height: 350px;
     }
     
-
+    
+    
+    /* JAMES LEINING */
     .leininger {
         
     }
     .leininger p {
         font-size: 16px;
-        padding: 0 0 0 20px;
+        padding: 10px 0 0 12px;
     }
     .leininger iframe {
         height: 400px;
@@ -1022,13 +960,14 @@ footer img:hover {
     .marple-carnival-app {
         border-bottom: 1px solid lightgrey;
         margin: 0;
-        padding: 50px 0 50px 0;
+        padding: 60px 0 60px 0;
     }
     .marple-carnival-app h2 {
-        padding: 20px 0 20px 22px;
+        padding: 20px 0 20px 20px;
     }
     .marple-carnival-app p {
-        padding: 0 0 0 22px;
+        padding: 0 0 0 20px;
+        font-size: 16px;
     }
     .marple-carnival-app img {
         display: block;
@@ -1047,11 +986,12 @@ footer img:hover {
         padding-left: 10px;
     }
     .the-future p {
+        font-size: 16px;
         padding-left: 10px;
     }
 
 
-    .experiment {
+    /* .experiment {
         border: 1px solid turquoise;
         display: flex;
         flex-wrap: wrap;
@@ -1073,7 +1013,7 @@ footer img:hover {
         flex-basis: 50%;
         margin: initial;
         width: initial;
-    }
+    } */
     
 }
 
@@ -1094,11 +1034,13 @@ footer img:hover {
     }
 
 
+
     /* THE NAVIGATION BAR */
     nav {
         display: block;
     }
     
+
 
     /* ABOUT ME */
     .about-me img {
@@ -1110,43 +1052,39 @@ footer img:hover {
     .education .item {
         flex-direction: space-around;
     }
-    .education .item:hover {
-        border: 1px solid turquoise;
-    }
+    
+
+
+    /* .what-I-am-working-on .two-projects {
+        
+    } */
+
 
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-       border: 1px solid red;
        margin: 0;
        padding: 0;
     }
-    .reincarnation-work .title {
-        border: 1px solid black;
+    .reincarnation-work h2 {
         margin: 0;
-        padding: 0;
+        padding: 0 0 10px 21px;
     }
-    .jim-tucker p {
-        border: 1px solid green;
+    .reincarnation-work p {
         margin: 0;
-        padding: 0;
     }
-    .independent {
-        margin: 0;
-        padding: 0;
+    .reincarnation-work #jim-tucker-button {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-    .independent img {
-        border: 1px solid blue;
-        height: ;
-    }
-    .overlay {
-        height: ;
+    .reincarnation-work img {
+        height: 450px;
     }
     
 
-
-
+    /* JAMES LEININGER */
     .leininger {
+        padding: 50px 0 50px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
