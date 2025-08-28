@@ -420,8 +420,8 @@ nav a:hover {
     border-radius: 0;
     background-color: white;
     margin-bottom: 0px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .my-experience span {
     border-radius: 5px;
@@ -899,6 +899,7 @@ footer img:hover {
     .my-experience {
         border-top: 1px solid lightgrey;
         border-bottom: 1px solid lightgrey;
+        padding: 30px 0 30px 0;
     }
     .my-experience br {
         display: none;
@@ -1053,6 +1054,11 @@ footer img:hover {
         flex-direction: space-around;
     }
     
+
+    /* WORK EXPERIENCE */
+    .my-experience {
+        padding: 40px 0 40px 0;
+    }
 
 
     /* .what-I-am-working-on .two-projects {
