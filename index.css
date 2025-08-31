@@ -535,6 +535,7 @@ nav a:hover {
 }
 .reincarnation-work h2 {
     font-family: "Inter", sans-serif;
+    font-size: 25px;
     font-weight: 600;
     margin: 0;
     padding: 20px 0 20px 7px;
@@ -623,7 +624,8 @@ nav a:hover {
     font-weight: 600;
     text-align: left;
     color: black;
-}.marple-carnival-app h2 span {
+}
+.marple-carnival-app h2 span {
     color: #7f858f;
 }
 .marple-carnival-app #full-stop {
@@ -836,7 +838,7 @@ footer img:hover {
     .my-treehouse-projects .projects-headline {
         font-size: 25px;
         text-align: left;
-        padding: 15px 0 15px 20px;
+        padding: 15px 0 15px 8px;
         width: 100%;
     }
     .my-treehouse-projects .projects {
@@ -1022,19 +1024,6 @@ footer img:hover {
 /* DESKTOP MEDIA QUERIES *****************************************************/
 @media only screen and (min-width: 1024px) {
    
-
-    /* THE FRONT END PAGE TITLE */
-    .front-end-heading {
-        margin: 0;
-        padding: 0;
-    }
-    .front-end-heading h1 {
-        font-family: Cinzel, sans-serif;
-        font-size: 50px;
-        text-align: center;
-    }
-
-
 
     /* THE NAVIGATION BAR */
     nav {
