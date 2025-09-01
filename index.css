@@ -926,10 +926,9 @@ footer img:hover {
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
-        border: 1px solid red;
+        
     }
     .reincarnation-work h2 {
-        font-size: 20px;
         padding-left: 20px;
     }
     .reincarnation-work p {
@@ -944,7 +943,7 @@ footer img:hover {
         margin: 20px 0 0 0;
         height: 350px;
     }
-    
+        
     
     
     /* JAMES LEININGER */
