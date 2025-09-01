@@ -593,7 +593,7 @@ nav a:hover {
 
 /* JAMES LEIINGER */
 .leininger {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
 }
 .leininger p {
@@ -606,7 +606,7 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     height: 220px;
-    width: 97%;
+    width: 100%;
 }
 
 
@@ -633,7 +633,8 @@ nav a:hover {
 }
 .marple-carnival-app p {
     font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
+    font-size: 14px;
     font-weight: 500;
     color: #7f858f;
     margin: 0;
@@ -687,7 +688,7 @@ nav a:hover {
 }
 
 
-.experiment {
+/* .experiment {
     padding: 0;
 }
 .experiment p {
@@ -702,7 +703,7 @@ nav a:hover {
     width: 100%;
     margin: 0;
     padding: 0;
-}
+} */
 
 
 
@@ -806,9 +807,6 @@ footer img:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-    }
-    .education .item {
-        
     }
     .open-university {
         width: 250px;
@@ -915,6 +913,8 @@ footer img:hover {
     }
 
 
+
+    /* WHAT I'M WORKING ON */
     .what-I-am-working-on {
         border-bottom: none;
     }
@@ -926,7 +926,7 @@ footer img:hover {
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
     .reincarnation-work {
-        
+        border: 1px solid red;
     }
     .reincarnation-work h2 {
         font-size: 20px;
@@ -938,25 +938,29 @@ footer img:hover {
     }
     .reincarnation-work #jim-tucker-button {
         margin: 10px auto;
-        width: 50%;
+        width: 30%;
     }
     .independent img {
+        margin: 20px 0 0 0;
         height: 350px;
     }
     
     
     
-    /* JAMES LEINING */
+    /* JAMES LEININGER */
     .leininger {
         
     }
     .leininger p {
         font-size: 16px;
-        padding: 10px 0 0 12px;
+        padding: 40px 0 0 20px;
     }
     .leininger iframe {
         height: 400px;
+        margin: 0;
+        padding: 0;
     }
+
 
 
     /* MARPLE CARNIVAL APP */
