@@ -4,6 +4,8 @@
 
 html {
     scroll-behavior: smooth;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 body {
     /* background-color: #f8f8f8; */
@@ -207,6 +209,7 @@ nav a:hover {
     color: #7f858f;
     font-size: 0.9rem;
     margin: 0 10px 0 20px;
+    line-height: 1.6;
 }
 
 /* THE ICONS OF VB/OPEN UNI/TREEHOUSE */
