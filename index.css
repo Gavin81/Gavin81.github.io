@@ -683,13 +683,13 @@ nav a:hover {
     padding: 70px 0 70px 0;
 }
 .work-together h2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 500;
     letter-spacing: -0.04em;
     line-height: 35px;
-    /* margin: 0 0 0 10px;*/
+    margin: 0 0 0 10px;
     padding: 0 50px 0 0;
 }
 .work-together #together {
@@ -699,15 +699,16 @@ nav a:hover {
     color: rgb(255, 80, 0);
 }
 .arrow-button-area {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
+    /* border: 1px solid red; */
+    margin: 0px 0 0 0;
+    padding: 36px 0 0 0;
+    height: 109px;
 }
 .arrow-button-area img {
     margin: 0;
     padding: 0;
-    height: 40px;
-    width: 50px;
+    height: 30px;
+    width: 40px;
 }
 
 
