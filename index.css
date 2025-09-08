@@ -419,12 +419,13 @@ nav a:hover {
 
 /* MY WORK EXPERIENCE TO GO HERE */
 .my-experience {
+    /* border: 1px solid red; */
     border-bottom: 1px solid lightgrey;
     border-radius: 0;
     background-color: white;
     margin-bottom: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .my-experience span {
     border-radius: 5px;
@@ -434,12 +435,13 @@ nav a:hover {
     height: 200px;
 }
 .my-experience h3 {
+    /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
     text-align: left;
     font-size: 30px;
     font-weight: 500;
     margin: 0 0 0 20px;
-    padding: 15px 0 15px 3px;
+    padding: 0 0 12px 3px;
 }
 .my-experience h3 span {
     font-size: 40px;
@@ -459,7 +461,7 @@ nav a:hover {
     /* font-size: 0.8rem; */
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #7f858f;
     margin: 0 0 0 20px;
     padding: 0 0 10px 4px;
@@ -484,9 +486,11 @@ nav a:hover {
 }
 #intheory-icon {
     background-color: turquoise;
+    color: white;
 }
 #carnival-icon {
     background-color: rgb(75, 207, 119);
+    color: white;
 }
 
 
@@ -531,16 +535,17 @@ nav a:hover {
 
 /* REINCARNATION WEBSITE  */
 .reincarnation-work {
+    /* border: 1px solid red; */
     display: block;
     margin: 0;
-    padding: 0;
+    padding: 70px 0 70px 0;
 }
 .reincarnation-work h2 {
     font-family: "Inter", sans-serif;
     font-size: 25px;
     font-weight: 600;
     margin: 0;
-    padding: 20px 0 10px 7px;
+    padding: 0 0 10px 7px;
 }
 .reincarnation-work h2 span {
     color: #7f858f;
@@ -583,7 +588,7 @@ nav a:hover {
 /* MARPLE CARNIVAL APP */
 .marple-carnival-app {
     border-bottom: 1px solid lightgrey;
-    padding: 50px 0 50px 0;
+    padding: 70px 0 70px 0;
 }
 .marple-carnival-app h2 {
     margin: 0;
@@ -602,12 +607,11 @@ nav a:hover {
 }
 .marple-carnival-app p {
     font-family: 'Inter', sans-serif;
-    /* font-size: 0.8rem; */
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: #7f858f;
     margin: 0;
-    padding: 0 0 0 4px;
+    padding: 0 4px 0 7px;
 }
 .marple-carnival-app img {
     width: 100%;
@@ -623,23 +627,17 @@ nav a:hover {
     margin: 0 auto;
     background-color: white;
     border-radius: 6px;
-    margin-top: 14px;
-    margin-bottom: 12px;
-    padding: 0;
+    /* margin-top: 14px;
+    margin-bottom: 12px; */
+    padding: 50px 0 50px 0;
     width: 98%;
-}
-.the-future img {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    height: 240px;
 }
 .the-future h3 {
     font-family: 'inter', sans-serif;
     font-size: 30px;
     font-weight: 500;
     text-align: left;
-    padding: 10px 0 10px 3px;
+    padding: 10px 0 10px 4px;
     margin: 0;
 }
 .the-future span {
@@ -648,11 +646,11 @@ nav a:hover {
     color: rgba(255, 80, 0);
 }
 .the-future p {
-    font-size: 0.8rem;
+    font-size: 15px;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
-    padding: 0 0 0 4px;
+    padding: 0 5px 0 4px;
     color: #7f858f;
 }
 
@@ -966,10 +964,11 @@ footer img:hover {
     }
     
 
+
     /* MY FUTURE TABLET CSS STYLES */
-    .the-future img {
-        height: 300px;
-        max-width: 200px;
+    .the-future {
+        margin: 0;
+        padding: 80px 0 80px 0;
     }
     .the-future h3 {
         padding-left: 10px;
