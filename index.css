@@ -135,14 +135,13 @@ nav a:hover {
     margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 25px 0 25px 0;
+    padding: 9px 0 60px 0;
     /* background-color: #434d55; */
 }
 .about-me img {
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    /* margin-top: 0; */
     width: 95%;
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -189,16 +188,16 @@ nav a:hover {
 .my-education {
     background-color: white;
     margin: 0;
-    padding: 0;
+    padding: 70px 0 0 0;
 }
-.my-education h4 {
+.my-education h2 {
     font-size: 30px;
     text-align: left;
     font-family: "inter", sans-serif;
     color: black;
     font-weight: 500;
     margin: 0;
-    padding: 10px 0 15px 20px;
+    padding: 0 0 5px 20px;
 }
 .my-education span {
     font-size: 40px;
@@ -208,7 +207,7 @@ nav a:hover {
     font-family: "inter", sans-serif;
     color: #7f858f;
     font-size: 0.9rem;
-    margin: 0 10px 0 20px;
+    margin: 0 10px 0 22px;
     line-height: 1.6;
 }
 
@@ -419,7 +418,6 @@ nav a:hover {
 
 /* MY WORK EXPERIENCE TO GO HERE */
 .my-experience {
-    /* border: 1px solid red; */
     border-bottom: 1px solid lightgrey;
     border-radius: 0;
     background-color: white;
@@ -683,11 +681,11 @@ nav a:hover {
 .work-together h2 {
     /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
     letter-spacing: -0.04em;
     line-height: 35px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
     padding: 0 50px 0 0;
 }
 .work-together #together {
@@ -697,10 +695,13 @@ nav a:hover {
     color: rgb(255, 80, 0);
 }
 .arrow-button-area {
-    /* border: 1px solid red; */
-    margin: 0px 0 0 0;
+    margin: 0;
     padding: 36px 0 0 0;
     height: 109px;
+    width: 70px;
+}
+.arrow-button-area:hover {
+    transition: 50%;
 }
 .arrow-button-area img {
     margin: 0;
@@ -708,7 +709,6 @@ nav a:hover {
     height: 30px;
     width: 40px;
 }
-
 
 
 
