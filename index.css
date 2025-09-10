@@ -995,6 +995,7 @@ footer img:hover {
         transition: transform .5s;
     }
     .arrow-button-area img:hover {
+        cursor: pointer;
         transform: rotate(360deg);
     }
     
