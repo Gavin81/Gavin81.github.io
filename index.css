@@ -1099,6 +1099,49 @@ footer img:hover {
     }
 
 
+
+    /*      */
+    .accordion-container {
+	    border-radius: 6px;
+	    margin-bottom: 50px;
+    }
+    .accordion h2 {
+	    margin: auto;
+    }
+    .accordion p {
+        font-size: 19px;
+    }
+    .accordion-header,
+    .accordion-body {
+        padding: 1rem;
+    }
+    .accordion-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #eee;
+        cursor: pointer;
+        transition: background-color .3s;
+    }
+    .accordion-header button {
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .accordion-header:hover {
+        background-color: #ccc;
+    }
+    .accordion-body {
+        background-color: white;
+        display: none;
+    }
+    .accordion.active .accordion-body {
+        display: block;
+    }
+
+
+    /*      */
+
     /* MARPLE CARNIVAL APP */
     .marple-carnival-app {
 
