@@ -1106,7 +1106,9 @@ footer img:hover {
 	    margin-bottom: 50px;
     }
     .accordion h2 {
+        /* border: 1px solid blue; */
 	    margin: auto;
+        padding: 0;
     }
     .accordion p {
         font-size: 19px;
@@ -1116,6 +1118,7 @@ footer img:hover {
         padding: 1rem;
     }
     .accordion-header {
+        border: 1px solid red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1138,9 +1141,8 @@ footer img:hover {
     .accordion.active .accordion-body {
         display: block;
     }
-
-
     /*      */
+
 
     /* MARPLE CARNIVAL APP */
     .marple-carnival-app {

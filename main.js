@@ -1,7 +1,7 @@
-const header = document.getElementByTagName('header');
+// const header = document.getElementByTagName('header');
 const hamMenu = document.querySelector('.ham-menu');
 const offScreenMenu = document.querySelector('.off-screen-menu');
-const accordionButton = document.querySelector('accordion h2');
+const accordionButton = document.querySelector('.accordion-header');
 // const accordion = document.querySelectorAll('.accordion');
 
 
@@ -10,15 +10,16 @@ const accordionButton = document.querySelector('accordion h2');
 //     offScreenMenu.classList.toggle('active');
 // })
 
-header.classList.toggle('sticky', isPastHeader);
+// header.classList.toggle('sticky', isPastHeader);
 
 
 accordionButton.addEventListener('click', e => {
-    p.classList.toggle('active');
-    if(accordionButton.textContent === '+'){
-        accordionButton.textContent = '-';
+    const accordionBody = document.querySelector('.accordion-body');
+    accordionBody.classList.toggle('active');
+    if(accordionBody.textContent === '+'){
+        accordionBody.textContent = '-';
     } else {
-        accordionButton.textContent = '+';
+        accordionBody.textContent = '+';
     }
 })
 
