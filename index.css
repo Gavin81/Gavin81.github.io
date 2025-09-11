@@ -1106,7 +1106,6 @@ footer img:hover {
 	    margin-bottom: 50px;
     }
     .accordion h2 {
-        /* border: 1px solid blue; */
 	    margin: auto;
         padding: 0;
     }
@@ -1138,7 +1137,7 @@ footer img:hover {
         background-color: white;
         display: none;
     }
-    .accordion.active .accordion-body {
+    .accordion-body.active {
         display: block;
     }
     /*      */
