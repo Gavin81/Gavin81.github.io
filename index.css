@@ -1101,8 +1101,8 @@ footer img:hover {
 
 
     /*      */
-    .accordion-container {
-	    border-radius: 6px;
+    .accordion {
+	    border-radius: 10px;
 	    margin-bottom: 50px;
     }
     .accordion h2 {
@@ -1110,14 +1110,16 @@ footer img:hover {
         padding: 0;
     }
     .accordion p {
-        font-size: 19px;
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        text-align: center;
     }
     .accordion-header,
     .accordion-body {
         padding: 1rem;
     }
     .accordion-header {
-        border: 1px solid red;
         display: flex;
         justify-content: space-between;
         align-items: center;
