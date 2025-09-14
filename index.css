@@ -556,12 +556,51 @@ nav a:hover {
     margin: 0;
     padding: 0 3px 6px 7px;
 }
+
+/* THE ACCORDION BIT */
+.accordion {
+    background-color: #eeeff1;
+    margin: 0;
+    padding: 0;
+}
+.accordion-header {
+    display: flex;
+}
+.accordion-header:hover {
+    cursor: pointer;
+}
+.accordion h2 {
+    color: #7f858f;
+    flex-basis: 90%;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+.accordion-header button {
+    border: none;
+    flex-basis: 10%;
+}
+.accordion-body {
+    display: none;
+}
+.accordion-body p {
+    text-align: center;
+    padding: 7px;
+}
+.accordion-body.active {
+    display: block;
+}
 .reincarnation-work iframe {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: 220px;
 }
+
+/* ***************************** */
+
+
+
 /* .reincarnation-work #jim-tucker-button {
     border: 1px solid turquoise;
     border-radius: 4px;
@@ -936,6 +975,9 @@ footer img:hover {
         font-size: 16px;
         padding-left: 20px;
     }
+    .accordion-body p {
+        padding: 15px;
+    }
     .reincarnation-work iframe {
         height: 370px;
     }
@@ -1063,15 +1105,14 @@ footer img:hover {
 
 
     /* .what-I-am-working-on .two-projects {
-        
+          
     } */
 
 
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-        margin: 0;
-        padding: 0;
+        padding-top: 50px;
     }
     .reincarnation-work h2 {
         margin: 0;
@@ -1085,33 +1126,17 @@ footer img:hover {
     }
     
     
-    
-
-    /* JAMES LEININGER */
-    .leininger {
-        padding: 50px 0 50px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .leininger div {
-        flex-basis: 50%;
-    }
-    .leininger p {
-        margin: 150px 0 0 0;
-    }
-
 
 
     /*      */
-    .accordion {
-	    border-radius: 10px;
-	    margin-bottom: 50px;
+     /* .accordion {
+	    
     }
+     */
     .accordion h2 {
-	    margin: auto;
-        padding: 0;
+        padding: 15px;
     }
+    /*
     .accordion p {
         margin: 0;
         padding: 0;
@@ -1144,7 +1169,7 @@ footer img:hover {
     }
     .accordion-body.active {
         display: block;
-    }
+    } */
     /*      */
 
 
