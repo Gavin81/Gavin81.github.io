@@ -550,11 +550,12 @@ nav a:hover {
     color: rgb(255, 80, 0);
 }
 .reincarnation-work p {
+    /* border: 1px solid red; */
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #7f858f;
     margin: 0;
-    padding: 0 3px 6px 7px;
+    padding: 0 3px 15px 7px;
 }
 
 /* THE ACCORDION BIT */
@@ -1107,19 +1108,12 @@ footer img:hover {
         padding: 120px 0 120px 0;
     }
     .my-experience .work p {
-        /* border: 1px solid blue; */
         padding-top: 5px;
     }
     .my-experience .work div {
         padding-bottom: 10px;
     }
     
-
-
-    /* .what-I-am-working-on .two-projects {
-          
-    } */
-
 
 
     /* REINCARNATION INDEPENDENT WORK */
