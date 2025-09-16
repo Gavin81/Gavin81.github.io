@@ -550,7 +550,6 @@ nav a:hover {
     color: rgb(255, 80, 0);
 }
 .reincarnation-work p {
-    /* border: 1px solid red; */
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #7f858f;
@@ -955,8 +954,10 @@ footer img:hover {
         padding-left: 5px;
     }
     .my-experience .work {
-        /* border: 1px solid red; */
         margin-top: 30px;
+    }
+    .my-experience .work p {
+        padding-right: 5px;
     }
 
 
