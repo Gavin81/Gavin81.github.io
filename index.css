@@ -146,9 +146,9 @@ nav a:hover {
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.about-me h3 {
+.about-me h2 {
     text-align: center;
-    font-size: 23px;
+    font-size: 30px;
     font-family: "inter", sans-serif;
     font-weight: 500;
     margin: 0;
@@ -805,16 +805,13 @@ footer img:hover {
     
 
     /* ABOUT ME SECTION/AREA */
-    .about-me {
-        
-    }
     .about-me img {
         display: block;
         margin: 0 auto;
         width: 50%;
         height: 250px;
     }
-    .about-me h3 {
+    .about-me h2 {
         margin: 0;
         padding-block: 1rem;
     }
