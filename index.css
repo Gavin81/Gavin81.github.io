@@ -941,7 +941,7 @@ footer img:hover {
     .my-experience {
         border-top: 1px solid lightgrey;
         border-bottom: 1px solid lightgrey;
-        padding: 80px 0 80px 0;
+        padding: 110px 0 110px 0;
     }
     .my-experience br {
         display: none;
@@ -952,6 +952,10 @@ footer img:hover {
     .my-experience p {
         font-size: 16px;
         padding-left: 5px;
+    }
+    .my-experience .work {
+        /* border: 1px solid red; */
+        margin-top: 30px;
     }
 
 
@@ -1100,8 +1104,16 @@ footer img:hover {
 
     /* WORK EXPERIENCE */
     .my-experience {
-        padding: 40px 0 40px 0;
+        padding: 120px 0 120px 0;
     }
+    .my-experience .work p {
+        /* border: 1px solid blue; */
+        padding-top: 5px;
+    }
+    .my-experience .work div {
+        padding-bottom: 10px;
+    }
+    
 
 
     /* .what-I-am-working-on .two-projects {
