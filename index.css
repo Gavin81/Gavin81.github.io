@@ -637,7 +637,7 @@ nav a:hover {
 .marple-carnival-app h2 span {
     color: #7f858f;
 }
-.marple-carnival-app #full-stop {
+.marple-carnival-app #carnival-full-stop {
     color: rgb(255, 80, 0);
 }
 .marple-carnival-app p {
@@ -727,7 +727,7 @@ nav a:hover {
 .work-together #together {
     color: rgb(127, 133, 143);
 }
-.work-together #full-stop {
+.work-together #work-full-stop {
     color: rgb(255, 80, 0);
 }
 .arrow-button-area {
@@ -737,7 +737,8 @@ nav a:hover {
     width: 70px;
 }
 .arrow-button-area:hover {
-    transition: 50%;
+    transition: ease-out .5s;
+    /* transition: 50px; */
 }
 .arrow-button-area img {
     margin: 0;
@@ -1097,7 +1098,8 @@ footer img:hover {
 
        
     .education .item {
-        flex-direction: space-around;
+        flex-direction: column;
+        /* flex-direction: space-around; */
     }
     
 
