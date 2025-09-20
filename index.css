@@ -749,6 +749,32 @@ nav a:hover {
 
 
 
+/* AN EXPERIMENT */
+.experiment {
+    border: 1px solid red;
+    padding: 0;
+}
+.block-1 {
+    margin: 0;
+    background-color: #4483ff;
+}
+.block-1 h3 {
+    font-family: poppins, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+.block-1 h3, h5 {
+    color: white;
+}
+.block-1 p {
+    color: white;
+}
+.block-2 {
+    background-color: #a9cde6;
+}
+
+
+
 /* footer */
 footer {
     margin: 0;
