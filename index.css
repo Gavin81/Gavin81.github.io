@@ -791,6 +791,9 @@ nav a:hover {
 .block-2 {
     background-color: #b4cee0;
 }
+.block-2 p {
+    color: white;
+}
 
 
 
