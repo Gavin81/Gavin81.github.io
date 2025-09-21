@@ -795,7 +795,7 @@ nav a:hover {
 }
 .block-2 p {
     font-family: Poppins, sans-serif;
-    color: white;
+    color: black;
     padding: 0 5px 0 15px;
     margin: 0 0 0 0;
     line-height: 25px;
@@ -1064,7 +1064,7 @@ footer img:hover {
     
 
 
-    /* MY FUTURE TABLET CSS STYLES */
+    /* THE PRESENT | FUTURE TABLET CSS STYLES */
     .the-future {
         margin: 0;
         padding: 80px 0 80px 0;
@@ -1074,7 +1074,7 @@ footer img:hover {
     }
     .the-future p {
         font-size: 16px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
 
