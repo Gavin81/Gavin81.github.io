@@ -752,16 +752,27 @@ nav a:hover {
 /* AN EXPERIMENT */
 .experiment {
     border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
     padding: 0;
 }
 .block-1 {
     margin: 0;
+    padding: 0;
     background-color: #4483ff;
 }
 .block-1 h3 {
-    font-family: poppins, Helvetica, Arial, sans-serif;
+    border: 2px solid green;
+    font-family: 'poppins', Helvetica, Arial, sans-serif;
     font-size: 30px;
-    line-height: 30px;
+    margin: 100px 0 20px 0;
+    padding: 0;
+    /* line-height: 30px; */
+}
+.block-1 h5 {
+    border: 2px solid black;
+    margin: 0;
 }
 .block-1 h3, h5 {
     color: white;
