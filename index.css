@@ -751,13 +751,13 @@ nav a:hover {
 
 /* AN EXPERIMENT */
 .experiment {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
 .block-1 {
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #4483ff;
@@ -789,10 +789,16 @@ nav a:hover {
     padding: 0 0 0 2px;
 }
 .block-2 {
+    width: 100%;
     background-color: #b4cee0;
+    padding: 100px 0 100px 0;
 }
 .block-2 p {
+    font-family: Poppins, sans-serif;
     color: white;
+    padding: 0 5px 0 15px;
+    margin: 0 0 0 0;
+    line-height: 25px;
 }
 
 
@@ -1097,8 +1103,15 @@ footer img:hover {
         transform: translateX(20px);
         /* transform: rotate(360deg); */
     }
-    
 
+
+
+    .experiment {
+        /* border: 1px solid black; */
+    }
+    .block-1 {
+        /* border: 1px solid red; */
+    }
 
     /* .experiment {
         border: 1px solid turquoise;
@@ -1247,6 +1260,15 @@ footer img:hover {
     }
     .the-future p {
         font-size: 16px;
+    }
+
+
+
+    .block-1, .block-2 {
+        flex-basis: 50%;
+    }
+    .block-1 p {
+        padding-right: 10px;
     }
 
 
