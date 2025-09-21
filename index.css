@@ -763,31 +763,30 @@ nav a:hover {
     background-color: #4483ff;
 }
 .block-1 h3 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     font-family: 'poppins', Helvetica, Arial, sans-serif;
     font-size: 30px;
-    margin: 90px 20px 20px 15px;
-    padding: 0;
-    /* line-height: 30px; */
+    margin: 120px 20px 0 15px;
+    padding: 0 0 10px 0;
 }
 .block-1 h5 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 15px;
-    margin: 0 0 0 19px;
-    padding: 0;
+    margin: 0 0 0 15px;
+    padding: 0 0 10px 2px;
 }
 .block-1 h3, h5 {
     color: white;
 }
 .block-1 p {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     font-family: Poppins, Helvetica, Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: white;
-    margin: 0 0 90px 20px;
-    padding: 0;
+    margin: 0 0 120px 15px;
+    padding: 0 0 0 2px;
 }
 .block-2 {
     background-color: #b4cee0;
