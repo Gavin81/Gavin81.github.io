@@ -766,22 +766,27 @@ nav a:hover {
     border: 2px solid green;
     font-family: 'poppins', Helvetica, Arial, sans-serif;
     font-size: 30px;
-    margin: 100px 0 20px 0;
+    margin: 90px 0 20px 15px;
     padding: 0;
     /* line-height: 30px; */
 }
 .block-1 h5 {
-    border: 2px solid black;
-    margin: 0;
+    /* border: 1px solid black; */
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0 0 0 20px;
 }
 .block-1 h3, h5 {
     color: white;
 }
 .block-1 p {
+    /* border: 1px solid pink; */
+    font-family: Poppins, Helvetica, Arial, Helvetica, sans-serif;
     color: white;
+    margin: 10px 0 90px 15px;
 }
 .block-2 {
-    background-color: #a9cde6;
+    background-color: #b4cee0;
 }
 
 
