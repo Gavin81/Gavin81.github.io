@@ -1157,16 +1157,25 @@ footer img:hover {
     }
 
 
-       
+    /* MY EDUCATION */
+    .my-education {
+        padding: 150px 0 150px 0;
+    }
     .education .item {
         flex-direction: column;
-        /* flex-direction: space-around; */
     }
     
 
+
+    .my-treehouse-projects {
+        padding: 120px 0 120px 0;
+    }
+
+
+
     /* WORK EXPERIENCE */
     .my-experience {
-        padding: 120px 0 120px 0;
+        padding: 140px 0 140px 0;
     }
     .my-experience .work p {
         padding-top: 5px;
@@ -1179,7 +1188,7 @@ footer img:hover {
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-        padding-top: 50px;
+        padding: 120px 0 120px 0;
     }
     .reincarnation-work h2 {
         margin: 0;
@@ -1242,10 +1251,7 @@ footer img:hover {
 
     /* MARPLE CARNIVAL APP */
     .marple-carnival-app {
-
-    }
-    .marple-carnival-app h2 {
-
+        padding: 100px 0 100px 0;
     }
     .marple-carnival-app p {
         font-size: 16px;
@@ -1255,9 +1261,8 @@ footer img:hover {
     }
     
 
-    .the-future {
 
-    }
+    /* THE PRESENT | THE FUTURE */
     .the-future p {
         font-size: 16px;
     }
@@ -1269,6 +1274,12 @@ footer img:hover {
     }
     .block-1 p {
         padding-right: 10px;
+    }
+    .block-2 .header {
+        font-family: Poppins, sans-serif;
+        color: #0a004b;
+        font-size: 16px;
+        font-weight: 700;
     }
 
 
