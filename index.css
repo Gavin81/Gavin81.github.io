@@ -1094,6 +1094,12 @@ footer img:hover {
     nav {
         display: block;
     }
+    nav li {
+        padding: 20px;
+    }
+    nav li a {
+        font-size: 14px;
+    }
     
 
 
