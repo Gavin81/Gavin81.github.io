@@ -749,60 +749,6 @@ nav a:hover {
 
 
 
-/* AN EXPERIMENT */
-.experiment {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
-.block-1 {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #4483ff;
-}
-.block-1 h3 {
-    /* border: 2px solid green; */
-    font-family: 'poppins', Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    margin: 120px 20px 0 15px;
-    padding: 0 0 10px 0;
-}
-.block-1 h5 {
-    /* border: 1px solid black; */
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    margin: 0 0 0 15px;
-    padding: 0 0 10px 2px;
-}
-.block-1 h3, h5 {
-    color: white;
-}
-.block-1 p {
-    /* border: 1px solid pink; */
-    font-family: Poppins, Helvetica, Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: white;
-    margin: 0 0 120px 15px;
-    padding: 0 0 0 2px;
-}
-.block-2 {
-    width: 100%;
-    background-color: #b4cee0;
-    padding: 100px 0 100px 0;
-}
-.block-2 p {
-    font-family: Poppins, sans-serif;
-    color: black;
-    padding: 0 5px 0 15px;
-    margin: 0 0 0 0;
-    line-height: 25px;
-}
-
-
-
 /* footer */
 footer {
     margin: 0;
@@ -1152,7 +1098,13 @@ footer img:hover {
 
 
     /* ABOUT ME */
+    .about-me {
+        padding: 50px 0 140px 0;
+    }
     .about-me img {
+        width: 40%;
+    }
+    .about-me p {
         width: 40%;
     }
 
@@ -1198,7 +1150,8 @@ footer img:hover {
         margin: 0;
     }
     .reincarnation-work iframe {
-        height: 500px;
+        /* border: 1px solid red; */
+        height: 600px;
     }
     
     
@@ -1266,21 +1219,5 @@ footer img:hover {
     .the-future p {
         font-size: 16px;
     }
-
-
-
-    .block-1, .block-2 {
-        flex-basis: 50%;
-    }
-    .block-1 p {
-        padding-right: 10px;
-    }
-    .block-2 .header {
-        font-family: Poppins, sans-serif;
-        color: #0a004b;
-        font-size: 16px;
-        font-weight: 700;
-    }
-
 
 }
