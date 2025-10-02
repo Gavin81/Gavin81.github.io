@@ -799,10 +799,6 @@ footer img:hover {
     nav li {
         padding: 15px 15px 15px 15px;
     }
-    nav li button {
-        margin-top: 0;
-    }
-
     .toggle-theme-btn {
         border: 2px solid grey;
         border-radius: 6px;
