@@ -1,4 +1,5 @@
 // const header = document.getElementByTagName('header');
+const toggleThemeBtn = document.querySelector('#toggleThemeBtn');
 const hamMenu = document.querySelector('.ham-menu');
 const offScreenMenu = document.querySelector('.off-screen-menu');
 const accordionHeader = document.querySelector('.accordion-header');
@@ -12,6 +13,11 @@ const accordionButton = document.querySelector('.accordion-header button');
 // })
 
 // header.classList.toggle('sticky', isPastHeader);
+
+
+toggleThemeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+})
 
 
 accordionHeader.addEventListener('click', e => {
