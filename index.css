@@ -786,7 +786,8 @@ footer img:hover {
     body.dark h1,
     body.dark h2,
     body.dark h3,
-    body.dark p {
+    body.dark p,
+    body.dark a {
         background-color: black;
         color: white;
     }
