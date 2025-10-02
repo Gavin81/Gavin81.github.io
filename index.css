@@ -11,9 +11,6 @@ body {
     /* background-color: #f8f8f8; */
     margin: 0;
 }
-body.dark h1, h2, h3, p {
-    
-}
 
 header {
     margin: 0;
@@ -786,7 +783,10 @@ footer img:hover {
 @media only screen and (min-width: 768px) {
     
 
-    body.dark {
+    body.dark h1,
+    body.dark h2,
+    body.dark h3,
+    body.dark p {
         background-color: black;
         color: white;
     }
@@ -800,16 +800,23 @@ footer img:hover {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         margin: 0;
-        padding: 0;
+        padding: 15px 0;
     }
     nav li {
-        padding: 15px 15px 15px 15px;
+        padding: 0 15px;
+        line-height: 0;
+        /* padding: 15px 15px 15px 15px; */
+    }
+    nav li:last-of-type {
+        padding-top: 1px;
     }
     .toggle-theme-btn {
         border: 2px solid grey;
         border-radius: 6px;
-        padding: 5px 5px 5px 5px;
+        /* padding: 5px 5px 5px 5px; */
+        height: 12px;
         width: 30px;
     }
 
