@@ -820,9 +820,9 @@ footer img:hover {
     body.dark .accordion-header button {
         background-color: black;
     }
-    /* body.dark .work-together .arrow-button-area  {
-        background-color: black;
-    } */
+    body.dark .projects a {
+        background-color: white !important;
+    }
 
 
 
