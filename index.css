@@ -736,12 +736,16 @@ nav a:hover {
     transition: ease-out .5s;
     /* transition: 50px; */
 }
+.arrow-button-area a {
+    text-decoration: none;
+}
 .arrow-button-area p {
     font-size: 50px;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 5px;
     height: 70px;
     width: 30px;
+    color: black;
 }
 
 
@@ -816,12 +820,10 @@ footer img:hover {
     body.dark .accordion-header button {
         background-color: black;
     }
-    body.dark .work-together .arrow-button-area  {
+    /* body.dark .work-together .arrow-button-area  {
         background-color: black;
-    }
-    body.dark .work-together .arrow-button-area .arrow {
-        background-color: black;
-    }
+    } */
+
 
 
     nav {
@@ -1079,9 +1081,6 @@ footer img:hover {
 
 
     /* LET'S WORK TOGETHER */
-    .work-together {
-
-    }
     .work-together h2 {
         flex-basis: 50%;
         padding: 35px 0 0 0;
@@ -1092,12 +1091,13 @@ footer img:hover {
     .arrow-button-area {
         flex-basis: 50%;
         padding-left: 150px;
+        padding-top: 18px;
     }
-    .arrow-button-area img {
+    .arrow-button-area p {
         /* transition: transform .5s; */
         transition: transform .5s;
     }
-    .arrow-button-area img:hover {
+    .arrow-button-area p:hover {
         cursor: pointer;
         transform: translateX(20px);
         /* transform: rotate(360deg); */
