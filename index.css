@@ -660,11 +660,8 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     background-color: white;
-    border-radius: 6px;
-    /* margin-top: 14px;
-    margin-bottom: 12px; */
-    padding: 50px 0 50px 0;
-    width: 98%;
+    padding: 50px 4px 50px 4px;
+    width: 100%;
 }
 .the-future h3 {
     font-family: 'inter', sans-serif;
@@ -783,15 +780,46 @@ footer img:hover {
 @media only screen and (min-width: 768px) {
     
 
+    /* CSS FOR DARK MODE IN TABLET MEDIA QUERIES */
     body.dark h1,
     body.dark h2,
     body.dark h3,
     body.dark p,
     body.dark a,
     body.dark nav,
-    body.dark .about-me {
+    body.dark .about-me,
+    body.dark .my-education,
+    body.dark .education,
+    body.dark .my-treehouse-projects,
+    body.dark .projects,
+    body.dark .my-experience,
+    body.dark .what-I-am-working-on,
+    body.dark .reincarnation-work,
+    body.dark .marple-carnival-app,
+    body.dark .the-future,
+    body.dark .work-together,
+    body.dark footer {
         background-color: black;
         color: white;
+    }
+
+    /* A SMALL SEPARATE DARK MODE CSS FOR TREEHOUSE H3 */
+    body.dark .treehouse h3 {
+        background-color: white;
+        color: green;
+    }
+    body.dark .projects h2 {
+        background-color: white;
+        color: black;
+    }
+    body.dark .accordion-header button {
+        background-color: black;
+    }
+    body.dark .work-together .arrow-button-area  {
+        background-color: black;
+    }
+    body.dark .work-together .arrow-button-area .arrow {
+        background-color: black;
     }
 
 
@@ -831,9 +859,6 @@ footer img:hover {
     
 
     /* ABOUT ME SECTION/AREA */
-    .about-me {
-        
-    }
     .about-me img {
         display: block;
         margin: 0 auto;
