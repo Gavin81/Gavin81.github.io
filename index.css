@@ -430,7 +430,6 @@ nav a:hover {
     height: 200px;
 }
 .my-experience h3 {
-    /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
     text-align: left;
     font-size: 30px;
@@ -462,7 +461,23 @@ nav a:hover {
     padding: 0 0 10px 4px;
 }
 .my-experience p a {
+    border: 1px solid teal;
+    border-radius: 6px;
+    display: block;
+    margin: 3px 4px 0 0;
+    font-size: 14px;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
     color: teal;
+    transition-duration: .5s;
+}
+.my-experience .work a:hover {
+    background-color: teal;
+    color: white;
+}
+.my-experience .work a:active {
+    background-color: rgb(14, 104, 104);
 }
 .work h4 {
     margin: 0 0 0 20px;
@@ -1012,6 +1027,9 @@ footer img:hover {
     .my-experience .work p {
         padding-right: 5px;
     }
+    .my-experience .work a {
+        width: 30%;
+    }
 
 
 
@@ -1190,6 +1208,9 @@ footer img:hover {
     }
     .my-experience .work p {
         padding-top: 5px;
+    }
+    .my-experience .work a {
+        width: 25%;
     }
     .my-experience .work div {
         padding-bottom: 10px;
