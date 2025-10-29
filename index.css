@@ -482,11 +482,6 @@ nav a:hover {
 .work h4 {
     margin: 0 0 0 20px;
 }
-.work span {
-    /* margin-right: 5px;
-    padding: 5px 5px 5px ;
-    color: black; */
-}
 .work img {
     display: inline-block;
     margin: 0;
@@ -1170,6 +1165,10 @@ footer img:hover {
     }
     nav li a {
         font-size: 14px;
+    }
+
+    .toggle-theme-btn {
+        margin-top: 18px;
     }
     
 
