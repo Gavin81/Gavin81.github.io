@@ -129,7 +129,8 @@ nav a:hover {
 
 /* ABOUT ME */
 .about-me {
-    border-bottom: 1px solid lightgrey;
+    /* border: 1px solid red; */
+    /* border-bottom: 1px solid lightgrey; */
     border-radius: 0;
     margin: 0 auto;
     margin-top: 0;
@@ -182,9 +183,15 @@ nav a:hover {
 }
 */
 
+#border {
+    border: 1px solid black;
+    height: 3px;
+    width: 100%;
+}
 
 /* MY EDUCATION WHERE I'VE BEEN TO STUDY */
 .my-education {
+    /* border: 1px solid blue; */
     background-color: white;
     margin: 0;
     padding: 70px 0 0 0;
