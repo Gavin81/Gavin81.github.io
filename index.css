@@ -423,8 +423,6 @@ nav a:hover {
 
 /* MY WORK EXPERIENCE TO GO HERE */
 .my-experience {
-    /* border: 1px solid blue; */
-    border-bottom: 1px solid lightgrey;
     border-radius: 0;
     background-color: white;
     margin-bottom: 0px;
@@ -640,7 +638,7 @@ nav a:hover {
 
 /* MARPLE CARNIVAL APP */
 .marple-carnival-app {
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
     padding: 70px 0 70px 0;
 }
 .marple-carnival-app h2 {
@@ -726,8 +724,8 @@ nav a:hover {
 /* LET'S CREATE TOGETHER */
 .work-together {
     display: flex;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
+    /* border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey; */
     padding: 80px 0 80px 0;
 }
 .work-together h2 {
@@ -878,9 +876,19 @@ footer img:hover {
         grid-template-columns: 1fr 1fr;
     } */
 
+
+    .border {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
     
 
     /* ABOUT ME SECTION/AREA */
+    .about-me {
+        /* border: 1px solid red; */
+        padding-bottom: 90px;
+    }
     .about-me img {
         display: block;
         margin: 0 auto;
@@ -902,7 +910,7 @@ footer img:hover {
 
     /* MY EDUCATION AREA */
     .my-education {
-        border-bottom: 1px solid lightgrey;
+        /* border-bottom: 1px solid lightgrey; */
         margin: 0;
         padding: 70px 0 70px 0;
     }
@@ -1011,8 +1019,8 @@ footer img:hover {
 
     /* MY WORK EXPERIENCE */
     .my-experience {
-        border-top: 1px solid lightgrey;
-        border-bottom: 1px solid lightgrey;
+        /* border-top: 1px solid lightgrey; */
+        /* border-bottom: 1px solid lightgrey; */
         padding: 110px 0 110px 0;
     }
     .my-experience br {
@@ -1067,7 +1075,7 @@ footer img:hover {
     
     /* MARPLE CARNIVAL APP */
     .marple-carnival-app {
-        border-bottom: 1px solid lightgrey;
+        /* border-bottom: 1px solid lightgrey; */
         margin: 0;
         padding: 60px 0 60px 0;
     }
