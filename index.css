@@ -879,14 +879,13 @@ footer img:hover {
 
     .border {
         padding: 0;
-        margin: 0;
-        width: 90%;
+        margin: 0 auto;
+        width: 95%;
     }
     
 
     /* ABOUT ME SECTION/AREA */
     .about-me {
-        /* border: 1px solid red; */
         padding-bottom: 90px;
     }
     .about-me img {
@@ -910,7 +909,7 @@ footer img:hover {
 
     /* MY EDUCATION AREA */
     .my-education {
-        /* border-bottom: 1px solid lightgrey; */
+        /* border: 1px solid blue; */
         margin: 0;
         padding: 70px 0 70px 0;
     }
@@ -944,12 +943,13 @@ footer img:hover {
 
     /* SOME OF MY TECHDEGREE UNITS */
     .my-treehouse-projects {
+        /* border: 1px solid red; */
         display: block;
         margin: 0 auto;
         width: 100%;
         /* margin-top: 15px;
         margin-bottom: 15px; */
-        padding: 50px 0 0 0;
+        padding: 70px 0 0 0;
     }
     .my-treehouse-projects section {
         margin: 0;
@@ -1019,8 +1019,6 @@ footer img:hover {
 
     /* MY WORK EXPERIENCE */
     .my-experience {
-        /* border-top: 1px solid lightgrey; */
-        /* border-bottom: 1px solid lightgrey; */
         padding: 110px 0 110px 0;
     }
     .my-experience br {
@@ -1048,7 +1046,7 @@ footer img:hover {
     /* WHAT I'M WORKING ON */
     .what-I-am-working-on {
         border-bottom: none;
-        padding: 70px 0 0 0;
+        padding: 100px 0 0 0;
     }
     .what-I-am-working-on .two-projects {
         padding-left: 22px;
@@ -1057,6 +1055,9 @@ footer img:hover {
 
 
     /* THIS IS MY REINCARNATION TABLET CSS STYLES */
+    .reincarnation-work {
+        padding-bottom: 0;
+    }
     .reincarnation-work h2 {
         padding-left: 20px;
     }
@@ -1098,7 +1099,7 @@ footer img:hover {
     /* THE PRESENT | FUTURE TABLET CSS STYLES */
     .the-future {
         margin: 0;
-        padding: 80px 0 80px 0;
+        padding: 80px 0 80px 9px;
     }
     .the-future h3 {
         padding-left: 10px;
@@ -1213,7 +1214,8 @@ footer img:hover {
 
 
     .my-treehouse-projects {
-        padding: 120px 0 120px 0;
+        border-radius: 6px 6px 0 0;
+        padding: 120px 0 0px 0;
     }
 
 
@@ -1233,10 +1235,14 @@ footer img:hover {
     }
     
 
+    .what-I-am-working-on {
+        padding-top: 140px;
+    }
+
 
     /* REINCARNATION INDEPENDENT WORK */
     .reincarnation-work {
-        padding: 120px 0 120px 0;
+        padding: 120px 0 0 0;
     }
     .reincarnation-work h2 {
         margin: 0;
@@ -1312,6 +1318,9 @@ footer img:hover {
 
 
     /* THE PRESENT | THE FUTURE */
+    .the-future {
+        padding-left: 15px;
+    }
     .the-future p {
         font-size: 16px;
     }
