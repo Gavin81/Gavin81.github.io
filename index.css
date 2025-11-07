@@ -1111,7 +1111,10 @@ footer img:hover {
 
 
 
-    /* LET'S WORK TOGETHER */
+    /* LET'S CREATE TOGETHER */
+    .work-together {
+        padding-left: 3px;
+    }
     .work-together h2 {
         flex-basis: 50%;
         padding: 35px 0 0 0;
@@ -1315,6 +1318,10 @@ footer img:hover {
         width: 96%;
     }
     
+
+    .work-together {
+        padding-left: 7px;
+    }
 
 
     /* THE PRESENT | THE FUTURE */
